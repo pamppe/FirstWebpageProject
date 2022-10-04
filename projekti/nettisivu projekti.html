@@ -6,21 +6,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&amp;subset=latin-ext"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
 <!--Joku kiva logo-->
-<header id="mainheader"><img id="mainimg" alt="Pääkuva" src="ruokalogo.jpg"></header>
+<header id="mainheader"></header>
 
 <!-- Navigaatio valikko  -->
-<div id="navlist">
+<nav id="navlist">
     <a href="#">Pääsivu</a>
     <a href="#">linkki2</a>
     <a href="#">linkki3</a>
     <a href="#">linkki4</a>
     <a href="#">linkki5</a>
-</div>
+</nav>
 <!-- hakupalkki oikealla-->
 <div class="search-container">
     <form action="">
@@ -30,22 +30,32 @@
 </div>
 
 <!-- logo tagilla -->
-<div class="content">
-    <h1 style="padding-top:40px;">
-        Hyvää ruokaa
-    </h1>
+<section id="section" class="section-intro">
+    <header>
+        <h1>Hyvä ruoka, parempi mieli</h1>
+    </header>
+    <div class="link-to-book-wrapper">
+        <a id="varaus" class="link-to-book"
+           href="#reservations">Varaa pöytä</a>
+    </div>
+</section>
 
-    <b>
-        Täällä kaikki ravintolat yhdessä paikassa.
-    </b>
+<section class="about-section">
+    <article>
+        <h3> <!-- Miksi meidän sivu paras-->
+           Hakukone millä löydät kaikki ravintolat helsingistä helposti.
+        </h3>
 
 
-    <p>
-        Nyt löydät kaikki lempi ravintolasi yhdestä paikasta.
-    </p>
+        <p> <!--Jotain informaatiota-->
+        Tähän jotain hauskaa tekstiä
+        </p>
+
+    </article>
+</section>
 
 
-</div>
+
 <main>
 
     <header>
