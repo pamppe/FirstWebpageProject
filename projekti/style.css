@@ -5,6 +5,16 @@
     position: absolute;
     width: 100%;
 }
+#mainheader {
+    background-color: #002D13;
+}
+ #mainimg {
+     position: relative;
+     left: 50%;
+     margin-left: -500px;
+     width: 1000px;
+     height: 300px;
+ }
 
 /* styling navlist anchor element */
 #navlist a {
@@ -15,11 +25,9 @@
     padding: 12px;
     text-decoration: none;
     font-size: 15px;
+    position: relative;
 }
 
-.navlist-right{
-    float:right;
-}
 
 /* hover effect of navlist anchor element */
 #navlist a:hover {
@@ -45,7 +53,9 @@
  }
 
  #map {
-     width: 400px;
-     height: 400px;
+     float: right;
+     position: relative;
+     width: 350px;
+     height: 350px;
  }
 
