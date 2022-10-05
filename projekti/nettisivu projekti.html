@@ -59,16 +59,32 @@
 <main>
 
     <header>
-        <h3>Hakutuloksesi: </h3>
+        <h3>Lähiravintolat </h3>
     </header>
     <div id="map"></div>
 
+    <article>
+        <h3 id="nimi"></h3>
+        <div class="navigoi">
+            <ul>
+                <li>
+                    <a class="nappi" href="#" id="paikanna">Paikanna</a>
+                </li>
+                <li>
+                    <a class ="nappi" id="navigoi">Navigoi</a>
+                </li>
 
+            </ul>
+        </div>
+        <h4 id="osoite"></h4>
+        <p id="kaupunki"></p>
+        <p id="lisatiedot"></p>
+    </article>
         <!-- testi -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.js"></script>
+
 </main>
-
-
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.js"></script>
 <script src = "FinalProject.js"> </script>
 
 </body>

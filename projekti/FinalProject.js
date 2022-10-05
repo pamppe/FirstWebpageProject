@@ -2,7 +2,7 @@
 
 
 
-
+ // Google places api
 const URL = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDo_qdGJxpkN6sy5I0HpiPhWfolYfFDGZM&location=-33.8670522,151.1957362&radius=5000&type=restaurant";
 
 fetch(URL).then(data=> {
@@ -12,6 +12,10 @@ fetch(URL).then(data=> {
 }).catch(error=> {
     console.log(error);
 })
+
+
+
+
 
 // Asetukset paikkatiedon hakua varten (valinnainen)
 const options = {
