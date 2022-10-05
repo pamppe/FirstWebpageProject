@@ -3,7 +3,7 @@
 
 
  // Google places api
-const URL = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDo_qdGJxpkN6sy5I0HpiPhWfolYfFDGZM&location=-33.8670522,151.1957362&radius=5000&type=restaurant";
+/*const URL = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDo_qdGJxpkN6sy5I0HpiPhWfolYfFDGZM&location=-33.8670522,151.1957362&radius=5000&type=restaurant";
 
 fetch(URL).then(data=> {
     return data.json()
@@ -11,7 +11,7 @@ fetch(URL).then(data=> {
     console.log(jsonData.results)
 }).catch(error=> {
     console.log(error);
-})
+})*/
 
 
  /*var axios = require('axios');
@@ -80,6 +80,7 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
      map = new google.maps.Map(document.getElementById("map"), {
          center: { lat: 60.192, lng: 24.945 },
          zoom: 6,
+
      });
      infoWindow = new google.maps.InfoWindow();
 
@@ -103,7 +104,33 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
                      infoWindow.setContent("Olet tässä");
                      infoWindow.open(map);
                      map.setCenter(pos);
-                     map.setZoom(10);
+                     map.setZoom(12);
+                     var request = {
+                         location: pos,
+                         radius: 5000,
+                         type: ['restaurant']
+
+
+                     };
+                     service = new google.maps.places.PlacesService(map);
+                     service.nearbySearch(request, callback);
+
+
+                     function callback(results, status) {
+                         if (status == google.maps.places.PlacesServiceStatus.OK) {
+                             for (var i = 0; i < results.length; i++) {
+                                 var place = results[i];
+                                 createMarker(results[i].geometry.location);
+                             }
+                         }
+                     }
+                     function createMarker(position) {
+
+                         new google.maps.Marker({
+                             position: position,
+                             map: map
+                         });
+                     }
 
                  },
                  () => {
@@ -126,8 +153,9 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
              : "Error: Your browser doesn't support geolocation."
      );
      infoWindow.open(map);
+     Results();
  }
 
- window.initMap = initMap;
 
+ //window.initMap = initMap;
 
