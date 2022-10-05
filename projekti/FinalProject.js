@@ -108,7 +108,7 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
                      var request = {
                          location: pos,
                          radius: 5000,
-                         type: ['restaurant']
+                         type: ['restaurant'],
 
 
                      };
@@ -120,16 +120,26 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
                          if (status == google.maps.places.PlacesServiceStatus.OK) {
                              for (var i = 0; i < results.length; i++) {
                                  var place = results[i];
-                                 createMarker(results[i].geometry.location);
+                                 createMarker(results[i].geometry.location, place.name);
+                                 console.log(place);
+                                 console.log(place.name);
+
+
+
                              }
                          }
                      }
-                     function createMarker(position) {
 
-                         new google.maps.Marker({
+
+                     function createMarker(position,title) {
+
+                        const merkki = new google.maps.Marker({
                              position: position,
-                             map: map
+                             map: map,
+                             title: title
+
                          });
+
                      }
 
                  },
@@ -156,6 +166,10 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
      Results();
  }
 
+
+
+document.getElementById("places");
+document.write();
 
  //window.initMap = initMap;
 
