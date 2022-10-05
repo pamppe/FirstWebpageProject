@@ -116,14 +116,7 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
          }
      });
  }
- var request = {
-     location: 'Espoo',
-     radius: '500',
-     query: 'restaurant'
- };
 
- service = new google.maps.places.PlacesService(map);
- service.textSearch(request, callback);
 
  function handleLocationError(browserHasGeolocation, infoWindow, pos) {
      infoWindow.setPosition(pos);
