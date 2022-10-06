@@ -124,6 +124,12 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
                                  console.log(place);
                                  console.log(place.name);
 
+                                 //console.log(place.icon);
+                                 //console.log(place.opening_hours);
+
+
+
+                                 listItems(place);
 
 
                              }
@@ -136,7 +142,8 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
                         const merkki = new google.maps.Marker({
                              position: position,
                              map: map,
-                             title: title
+                             title: title,
+
 
                          });
 
@@ -165,11 +172,28 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
      infoWindow.open(map);
      Results();
  }
+function listItems(paikka){
+    const pElem = document.createElement("p");
+    const imgElem = document.createElement("img");
+    imgElem.src = paikka.photos[0].getUrl({'maxWidth': 100, 'maxHeight': 100});
+    imgElem.alt = paikka;
+
+    const divElem = document.getElementById("places");
+    divElem.appendChild(imgElem);
+    divElem.appendChild(pElem);
+
+    pElem.innerText = paikka.name;
+    if (imgElem.src == null){
+        pElem.innerText = paikka.name;
+    }
+}
+function navigoi(paikka){
+
+
+}
 
 
 
-document.getElementById("places");
-document.write();
 
  //window.initMap = initMap;
 
