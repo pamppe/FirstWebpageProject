@@ -43,6 +43,8 @@ body {
 
 /* styling navlist anchor element */
 #navlist a {
+
+
     float:left;
     display: block;
     color: #f2f2f2;
@@ -50,34 +52,74 @@ body {
     padding: 12px;
     text-decoration: none;
     font-size: 15px;
+    letter-spacing: 2px;
+    transition: .5s;
 }
 
-.navlist-right{
-    float:right;
-}
 
 /* hover effect of navlist anchor element */
 #navlist a:hover {
     background-color: #ddd;
     color: black;
+    letter-spacing: 10px;
 
 }
 
 /* styling search bar */
- .palkki{
-     width:300px;
-     height:25px;
-     border-radius:25px;
-     border: 2px solid black;
+ form{
+     float: right;
      position: relative;
-
+     transition: all 1s;
+     width: 50px;
+     height: 50px;
+     background: white;
+     box-sizing: border-box;
+     border-radius: 25px;
+     border: 4px solid #002D13;
+     padding: 5px;
  }
 
- .search-container form {
-     position: relative;
-     float: right;
-     margin: 7px;
+ input{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;;
+     height: 42.5px;
+     line-height: 30px;
+     outline: 0;
+     border: 0;
+     display: none;
+     font-size: 1em;
+     border-radius: 20px;
+     padding: 0 20px;
+ }
 
+ .fa{
+     box-sizing: border-box;
+     padding: 10px;
+     width: 42.5px;
+     height: 42.5px;
+     position: absolute;
+     top: 0;
+     right: 0;
+     border-radius: 50%;
+     color: #07051a;
+     text-align: center;
+     font-size: 1.2em;
+     transition: all 1s;
+ }
+ form:hover{
+     width: 200px;
+     cursor: pointer;
+ }
+
+ form:hover input{
+     display: block;
+ }
+
+ form:hover .fa{
+     background: #07051a;
+     color: white;
  }
 
  #map {
