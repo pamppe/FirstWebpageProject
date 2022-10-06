@@ -239,10 +239,14 @@ let ravintolat = [
         kuva: "https://tox.imgix.net/restaurant/1216/images/tableonline-1216-wellamo-MI18002f736eb.jpg?dpr=1&q=90&auto=format&w=844&h=844"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Restoran Härg",
+        kuvaus:"Härg-ravintolan tavoitteena on tarjota asiakkailleen parasta mahdollista lihaa, joka valmistetaan matalissa lämpötiloissa ja yhdistetään tuoreisiin salaatteihin, vastapuristettuihin mehuihin ja smoothieihin.\n" +
+            "\n" +
+            "Härgissä ruokaa valmistetaan oikealla tulella ja osa ruoista valmistetaan jopa kuumien hiilten sisällä. Viinit ja muut juomat on myös valittu huolella, kuten myös kaikki ravintolassa käytettävät tuoretuotteet, joita on valittu ympäri maailman.\n" +
+            "\n" +
+            "Mahtava ruoka, musiikki ja erilainen sisustus luovat yhdessä elämyksen kaikille aisteille.",
+        osoite: "Maakri 21, Tallinn",
+        kuva: "https://tox.imgix.net/restaurant/857/images/tableonline-857-restoran-harg-ND180dcf62dc8.jpg?dpr=1&q=90&auto=format&w=726&h=726"
 
     },{
         nimi: "",
