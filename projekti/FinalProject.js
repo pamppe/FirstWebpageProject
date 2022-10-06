@@ -223,13 +223,20 @@ let ravintolat = [
         nimi: "",
         kuvaus:"",
         osoite: "",
-        kuva: ""
+        kuva: "https://tox.imgix.net/restaurant/1216/images/tableonline-1216-wellamo-MI18002f736eb.jpg?dpr=1&q=90&auto=format&w=844&h=844"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Wellamo",
+        kuvaus:"Uudistunut Ravintola Wellamo Katajanokalla on nyt uusissa käsissä!\n" +
+            "Ikoninen klassikkoravintola Wellamo vaihtoi omistajaa syksyllä 2021 ja ravintola halutaan nostaa uuteen loistoon uusien omistajien voimin.\n" +
+            "\n" +
+            "Wellamossa keskitytään suuriin makuihin, herkullisiin viineihin ja cocktaileihin sekä kodikkaan rentoon tunnelmaan.\n" +
+            "\n" +
+            "Ravintolassa on tarjolla 4 ruokalajin menu sekä listalta valittavia annoksia, joten syömään voi tulla pitkän kaavan mukaan tai pistäytyä nauttimaan rennosti. Keittiö tuo pöytään unohtumattomia makuja kauden sesonkeja kunnioittaen.\n" +
+            "\n" +
+            "Lämpimästi tervetuloa uudistettuun Wellamoon!",
+        osoite: "Laivastokatu 18, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1216/images/tableonline-1216-wellamo-MI18002f736eb.jpg?dpr=1&q=90&auto=format&w=844&h=844"
 
     },{
         nimi: "",
@@ -274,6 +281,21 @@ let ravintolat = [
         kuva: ""
 
     },
+    {
+        nimi: "Nabi korean BBQ",
+        kuvaus:"The best Korean BBQ & experience authentic Korean culture!",
+        osoite: "Eerikinkatu 14",
+        kuva: "https://static.wixstatic.com/media/9f01c6_c3601a73b69a42ce9ec3667156925550~mv2.jpg/v1/fill/w_1681,h_1118,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2022-05-15-204550%20A7C_edited.jpg"
+
+    },
+    {
+        nimi: "Kampai3",
+        kuvaus:"Fresh ingredients and simply delicious cuisine. Japanese food",
+        osoite: "Kolmas linja 18",
+        kuva: "https://956ba5913f.clvaw-cdnwnd.com/f6ac604342bd39091d5dffbbee62b617/200000002-b9194ba136/IMG_0108-9.JPG?ph=956ba5913f"
+
+    },
+
 ];
 let placeID = [];
 
