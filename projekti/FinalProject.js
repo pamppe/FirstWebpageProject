@@ -16,128 +16,208 @@ let ravintolat = [
         nimi: "Mc Donald's",
         kuvaus:"Tällä hetkellä asiakkaita palvelee 69 McDonald’s -perheravintolaa Helsingistä Rovaniemelle. McDonald’s-ravintolat toimivat pääasiassa paikallisin yrittäjävoimin ja ovat monella alueella tärkeä työllistäjä. Työskentely Mäkkärissä tarjoaa monelle hyvän ponnahduslaudan työelämään.",
         osoite: "",
-        kuva: ""
+        kuva: "https://static.wikia.nocookie.net/ronaldmcdonald/images/b/b5/Mcdonalds-logo-current-1024x750.png/revision/latest/scale-to-width-down/1024?cb=20180730081148"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
+        nimi: "Pizza Hut",
+        kuvaus:"Pizza Hut on maailman suurin ja mukavin pizzatalo. Pizza Hutin ja Pan Pizzan tarina alkoi Wichitassa, Yhdysvalloissa vuonna 1958, kun veljekset Frank ja Dan Carney päättivät yhdistää amerikkalaisen piiraan ja italialaisen pizzan. Veljesten äiti lainasi 600 dollaria aiemmin baarina toimineen kiinteistön muuttamiseksi ravintolaksi.\n" +
+            "\n" +
+            "Ravintolan nimi syntyi puolivahingossa. Siihen piti saada ehdottomasti sana “pizza”. Koska ravintolan rakennus muistutti mökkiä ja sen hetkisessä nimikyltissä oli tilaa vain kahdeksalle kirjaimelle, syntyi “Pizza Hut”. Amerikkalaiset rakastuivat Pizza Hutiin heti. Kymmenessä vuodessa ravintoloita oli jo 300, ja vuonna 1970 ketju laajeni kansainvälisille markkinoille. Nykyään Pizza Hut on maailman suurin pizzatalo.   \n" +
+            "Pizza Hut -brändin maailmanlaajuiset oikeudet omistaa maailman suurin ravintola-alan yritys Yum! Brands, Inc., jolla on yli 40 000 ravintolaa maailmanlaajuisesti.",
         osoite: "",
-        kuva: ""
+        kuva: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pizza_Hut_1967-1999_logo.svg/800px-Pizza_Hut_1967-1999_logo.svg.png"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
+        nimi: "Via tribunali",
+        kuvaus:"Myös tänä vuonna 50 Parasta Ravintolaa -lista on ihan oikeutetusti täynnä fine dining-ravintoloita, mutta mutta… Sieltä löytyy tasan yksi pizzeria, ja se olemme me! Itseasiassa koko listalla ei ole koskaan ollut pizzeriaa ennen meitä, joten sijoittuminen ”viiden ruokalajin menujen” joukkoon on todella kova suoritus.\n" +
+            "\n" +
+            "Kiitos siitä kuuluu asiakkaillemme. Voi kuulostaa kliseeltä, mutta näin se on. Kun tulet syömään, niin tiedämme, että odotat paljon enemmän kuin tavallista pizzaa. Moni tulee syömään kaverin suositusten ansiosta, koska Tribunalista saa kuulemma Suomen parasta pizzaa. Tuollaiset asiat motivoivat meitä aivan valtavasti tekemään jokaisesta pizzasta niin hyvän kuin vain pystymme.\n" +
+            "\n" +
+            "Viimeistään nyt autenttinen napolilainen pizza on lähtemätön osa suomalaista ravintolakulttuuria. Ja ihan oikeutetusti! Iso kiitos makuaistillesi.",
         osoite: "",
-        kuva: ""
+        kuva: "https://viatribunali.fi/wp-content/uploads/2018/10/imageedit_1_8210170015.png"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Plein",
+        kuvaus:"Plein on lämminhenkinen kortteliravintola Puu-Vallilan reunalla. Alkuviinipainotteinen viinilista on napakan kattava ja ruoalle hyvin sopiva. Tiivis ja monipuolinen sesonginmukainen menu suosii luomua ja elää lähes viikoittain.\n" +
+            "\n" +
+            "Olet tervetullut lasilliselle tai nauttimaan vaikka koko ruokalistan kerralla.",
+        osoite: "Suvannontie 18, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/1000-1567528816294.jpeg&dpr=1&q=90&auto=format&w=398&h=398"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Bistro O mat",
+        kuvaus:"tarjoaa huolellisesti valmistettua, nykyaikaista ruokaa pohjoismaisen ja ranskalaisen keittiön perinteisiä valmistustapoja kunnioittaen. Tarjolle valitaan sesongin mukaan kauden parhaita tuotteita, mieluiten luomutuotteita ja  kotimaisten lähituottajien puhtaita raaka-aineita.\n" +
+            "\n" +
+            "Ravintolan viinilista painottuu eurooppalaisiin viineihin, mukana on niin kestävää kehitystä kuin luomuviinejäkin ja ateriakokonaisuuksiin valituissa viinipaketeissa on aina mukana jokin viinikellarin harvinaisuuksista. \n" +
+            "\n" +
+            "Bistro O matin lounaalle valmistetaan suosittuja, perinteisiä kotiruokia nykyaikaisella ja raikkaalla tavalla toteutettuna. Suositulle sunnuntaibrunssille katetaan runsaan monipuolinen alku- ja jälkiruokapöytä ja brunssin pääruoka tarjoillaan pöytiin.",
+        osoite: "Asemankulma 2, Kirkkonummi",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/369-1518009576444.jpeg?dpr=1&q=90&auto=format&h=655"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Bona Fide",
+        kuvaus:"Matalan kynnyksen bistro sijaitsee perinteisessä kruununhakalaisessa ravintolatilassa. Talon kekseliäs ruokalista on kuluttajaystävällisesti hinnoiteltu. Tervetuloa!\n" +
+            "\n" +
+            "Ovet aukeavat yleisölle keskiviikkona 18.8.!",
+        osoite: "Vironkatu 8, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1204/images/tableonline-1204-bona-fide-2M17b203ac2ab.jpg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Metsäravintola Nielu",
+        kuvaus:"Nielu palaa aikaisintaan vuonna 2023.\n" +
+            "\n" +
+            "Nielun perustajajäsen, Valtteri Sinkkonen, keskittyy Hotelli Helkan tiloihin maaliskuussa avautuneeseen Omadi Omakase ravintolaan. Pöytävarauksia Omadiin voit tehdä TableOnlinesta. Paina Nielun profiilissa 'Varaa pöytä' niin pääset Omadin profiiliin.",
+        osoite: "Nuuksiontie 71, Espoo",
+        kuva: "https://tox.imgix.net/restaurant/963/images/tableonline-963-nielu-pop-up-illalliset-LY1799b00a274.jpeg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Omadi Omakase",
+        kuvaus:"Omadi on omakase ravintola Helsingin ydinkeskustassa, jossa tarjoillaan yksi pitkä menu, johon kuuluu perinteiseen omakase-tyyliin raakaa kalaa, käsintehdyt sushit ja artesaani sake-paritukset. Omadi tuo leikkisästi yhteen japanilaisen ja pohjoismaalaisen ruokakulttuurin kunnioittamalla japanilaisia valmistustapoja ja raaka-aineita.\n" +
+            "\n" +
+            "Intiimiin illallisiin mahtuu vain 8 kerrallaan ja annokset valmistetaan ja tarjoillaan edessäsi. Omadista voi löytää Suomen yhden kattavimmista sake-valikoimista. Saken lisäksi lasiin kaadetaan mielenkiintoisia juomasekoituksia, pientuottaja viiniä ja samppanjaa.\n" +
+            "\n" +
+            "Ravintola on auki keskiviikosta lauantaihin kolmella noin. 2h kattauksella: 16.30, 18.30 ja 20.30.",
+        osoite: "Pohjoinen Rautatiekatu 23, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1275/images/tableonline-1275-omadi-omakase-6W1806b2ccddf.jpg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Pikku Hukka",
+        kuvaus:"Pikku Hukka on tunnelmallinen korttelibistro Vanhassa Herttoniemessä. Ravintolan ruokafilosofiassa hyvä ruoka ja hyvä arki kulkevat käsi kädessä. Pikku Hukassa halutaan luoda asiakkaiden päivään mutkattomia, mukavia kohtaamisia maistuvan ruoan ja juoman merkeissä.\n" +
+            "\n" +
+            "Olitpa sitten ehta hertsikalainen tai kaukaisempi vieras, tässä ravintolassa nautit lounaasta, kiireettömistä iltapäivistä ja vietät mukavaa iltaa perheen tai ystävien kesken.\n" +
+            "\n" +
+            "Ravintolan bistrolista palvelee keskiviikosta perjantaihin heti lounasajan jälkeen ja lauantaisin koko päivän. Lounasta ravintolassa tarjoillaan keskiviikosta perjantaihin kello 11-15.",
+        osoite: "Kettutie 3, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1126/images/tableonline-1126-pikku-hukka-DO17665c639c6.jpg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Natura Restaurant",
+        kuvaus:"Naturassa ruoka valmistetaan korkeatasoisista raaka-aineista asiakkaan läheisyydessä avokeittiössä. Valittavissa on kolme menukokonaisuutta ja annoksia voi tilata myös yksittäin päivittäin vaihtuvalta ruokalistalta. Keittiön kulmakiviä ovat selkeät ja puhtaat maut, joita luodaan modernilla otteella käyttäen tekniikoita puuhiiligrillauksesta, matalalämpökypsennykseen.\n" +
+            "\n" +
+            "Lihat hankitaan ainoastaan tiloilta, jotka Naturassa tunnetaan henkilökohtaisesti. Käytetyt kalat ovat kestävän kehityksen mukaisia lajeja.\n" +
+            "\n" +
+            "Suuren panoksen ruokaan antavat lukuisat sienten, marjojen ja villiyrttien kerääjät, kalastajat ja pientuottajat, joista osa toimittaa raaka-aineitaan ainoastaan Naturaan. Suomalaisten tuottajien lisäksi ravintola käyttää muutamia tarkoin valittuja ulkomaisia toimittajia.\n" +
+            "\n" +
+            "Naturan viinilista pohjautuu ruoan tavoin puhtaisiin ja raikkaisiin makuihin, pientuottajiin sekä hyvään hinta-laatu suhteeseen.\n" +
+            "\n" +
+            "Iso Roobertinkatu 11:ssa sijaitseva intiimi Natura on auki keskiviikosta sunnuntaihin kello 17.00 alkaen.",
+        osoite: "Iso Roobertinkatu 11, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/606-1457813573925.png?dpr=1&q=90&auto=format&w=765&h=765"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Aito",
+        kuvaus:"Ravintola Aito tarjoaa vierailleen puhtaista ja tuoreista raaka-aineista valmistettua konstailematonta ja rehtiä ruokaa sekä sydämellistä ja ystävällistä palvelua, unohtamatta rentoa ja välitöntä tunnelmaa.\n" +
+            "\n" +
+            "Jo yli kymmenen vuoden ajan ravintoloitsijat Tuomas Serkamo ja Kimmo Ylisuvanto ovat tarjonneet vierailleen makuelämyksiä skandinaaviseen tyyliin puhtaista kotimaisista raaka-aineista. Tieto raaka-aineiden alkuperästä on ravintoloitsijoille sydämen asia.\n" +
+            "\n" +
+            "Tiuhaan vaihtuvalla menulla korostuvat sesongin parhaat maut ja raaka-aineet. Tarjolla on niin kotimaisia kaloja kuin riistaakin sekä taidolla toteutettuja liha- ja kasvisannoksia. Ravintola Aito taitaa myös kasvisruoan salat, ja tilauksesta menut toteutetaan ilolla myös kasvis- ja vegaaniversioina.\n" +
+            "\n" +
+            "Liitutaulumme annoksia voit tilata aina myös erikseen ja kaikille annoksille sekä menuille on tarjolla myös omat viinisuositukset.\n" +
+            "\n" +
+            "Viinilistalla pääpaino on perinteisissä vanhan maailman viineissä. Valikoimasta löytyy myös mielenkiintoisia pientuottajien viinejä vähemmän tunnetuilta viinintuotantoalueilta. Viinivalikoimassa arvostetaan luomua, biodynaamisuutta sekä hiilijalanjäljen huomioon ottamista.\n" +
+            "\n" +
+            "Sesongin mukaan elävän viinilistan viineistä tarjoillaan lähes kaikkia myös laseittain.",
+        osoite: "Museokatu 29, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/418/images/tableonline-418-aito-2A17753b09179.jpg?dpr=1&q=90&auto=format&w=838&h=838"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Skörd",
+        kuvaus:"Helsinkiläisen Ravintola Skördin keittiössä keittäjämme Anton, Jon ja Emma loihtii herkullisia makuelämyksiä mahdollisimman läheltä tulevista sesongin raaka-aineista, itse kerätyistä villiyrteistä ja marjoista sekä riistasta, kalasta ja luomukaritsasta. Kaikki ravintolan raaka-aineet ja juomat tulevat rakkaasta kotimaastamme Suomesta. Salin puolella vieraita viihdyttävät Janne ja Outi. He tarjoilevat ruokien kanssa yhteensopivia laadukkaita kotimaisia marjaviinejä, oluita, siidereitä ja itse tehtyjä marjaliköörejä sekä loihtivat cocktaileja sesongin raaka-aineista.\n" +
+            "\n" +
+            "HUOM. Käytämme ainoastaan prosessoimattomia lähi- ja villiraaka-aineita, joten emme valitettavasti pysty tarjoamaan kaikkia annoksia maidottomina tai vegaanisina.\n" +
+            "\n" +
+            "Tervetuloa Fredalle pitämään hauskaa herkullisen ruoan ja juoman merkeissä!",
+        osoite: "Fredrikinkatu 37, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1001/images/tableonline-1001-skord-LA1761a9b334a.jpg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Toca",
+        kuvaus:"Tocassa on tarjolla vaihtuva 4 ruokalajin menu, joka koostuu italialaisista mauista yhdistettyinä suomalaisiin raaka-aineisiin. Edulliset viini-, olut- ja baaripaketit takaavat nautinnon niin bisnestapaamisiin kuin kaveriporukan illanviettoonkin.\n" +
+            "\n" +
+            "Tunnelma ravintolassa on iloinen ja huoleton ja henkilökunnan ammattitaito näkyy kaikessa tekemisessä.",
+        osoite: "Unioninkatu 18, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/449-1517235098516.jpeg?dpr=1&q=90&auto=format&w=746&h=746"
 
     },
     {
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "SPIS",
+        kuvaus:"Tunnelmallinen ravintola Spis palvelee Helsingin keskustassa Kasarminkadulla. Spisin keittiössä syntyy suomalaisen keittiön herkkuja pohjoismaisella twistillä. Annoksissa tutut raaka-aineet tuodaan esiin yllättävin tavoin.",
+        osoite: "Kasarmikatu 26, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/351.jpg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Sake Bar & Izakaya",
+        kuvaus:"Izakaya on yksi tavanomaisimmista ravintolamuodoista Japanissa.\n" +
+            "\n" +
+            "Se on paikka johon ihmiset tulevat istumaan iltaa juomien parissa, ja rentoutumaan vaikka kolleegojen tai kavereiden kanssa. Vaikka juomat ovat pääroolissa, izakayassa on tapana myös napostella niiden kylkeen toimivia ruokia, joita löytyy reilu valikoima, ja joita jaetaan seurueen kesken.\n" +
+            "\n" +
+            "Ravintolassa on vain 12 paikkaa varattavissa ruokailijoille. Baaritiskille pääsee siis juomaan ja napostelemaan myös ilman varausta!\n" +
+            "\n" +
+            "Sake Bar & Izakaya on hyvin pieni baari, ja tunnelma on toisinaan tiivis ja äänekäs. Ravintolassa keskitytään pääsääntöisesti alkoholijuomien tarjoiluun ja ikäraja on K18.",
+        osoite: "Vironkatu 11, Helsink",
+        kuva: "https://tox.imgix.net/restaurant/1345/images/tableonline-1345-sakebar-and-izakaya-AC18366f396cf.png?dpr=1&q=90&auto=format&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Pretty Boy Wingery Kamppi",
+        kuvaus:"Helsingin parhaaksi kanaravintolaksi äänestetyssä Pretty Boyssa nautitaan kokonaisvaltaisista elämyksistä; laadukkaasta ruoasta, leppoisasta meiningistä sekä ammattitaitoisen henkilökunnan sydämellisestä palvelusta.\n" +
+            "\n" +
+            "Pretty Boy Wingery haluaa tehdä kanasta premiumia – ja onnistuu siinä mainiosti!\n" +
+            "\n" +
+            "ERINOMAISTA JA LAADUKASTA, MUTTA HELPOSTI SYÖTÄVÄÄ RUOKAA\n" +
+            "Kaiken keskiössä on itse tekeminen; Pretty Boy Wingeryssä panostetaan hitaaseen esivalmisteluun ja tasokkaaseen kypsennykseen. Uniikkia makua annoksiin tuovat ravintolan omat kastikkeet ja marinadit.\n" +
+            "\n" +
+            "Kokeneiden ravintola-alan tekijöiden ja vaikuttajien Pretty Boy Wingery ei ole pelkkä siipiravintola, vaan saatavilla on mielenkiintoinen valikoima kotimaisesta kanasta käsintehtyjä annoksia, joiden makumaailmat vaihtelevat aina Japanista Peruun. Menusta voit löytää siipien ja luuttomien boneless-siipen lisäksi gyroksia, burgereita, lihattomia NoChicken-annoksia unohtamatta!\n" +
+            "\n" +
+            "Annosten kylkeen on tarjolla laaja valikoima erilaisia juomia limonadeista oluisiin ja viineistä cocktaileihin.",
+        osoite: "Malminrinne 2-4, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1335/images/tableonline-1335-pretty-boy-wingery-kamppi-9B18313816ee3.jpg?dpr=1&q=90&auto=format&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Fusion Restaurant & Bar",
+        kuvaus:"Fusionin huikea 60 ruokalajin maistelumenu on kokemus, jota ei kannata jättää väliin. Suupalan kokoisia maisteluannoksia voi vapaasti valita listalta itselleen sopivan määrän. Tarjolla on esimerkiksi kevyesti savustettua villisorsaa, turskan poskia tai ostereita nahm jim -kastikkeessa. Lihaherkkuja voi maistella myös kiertävästä tarjoilukärrystä, josta päivän liha veistetään lautaselle pöydän ääressä.\n" +
+            "\n" +
+            "Laadukas ja monipuolinen à la carte -lista jatkaa makujen ilotulitusta. Tarjolla on muun muassa hirviwallenbergia, karitsan karetta ja tryffelipastaa.\n" +
+            "\n" +
+            "Keväästä syksyyn ravintolan erikoisuuksiin kuuluu myös terassilla sijaitseva grilli. Laavakiveltä tarjoillut herkulliset pihvit saavat kypsyä vielä pöytiin tarjoiltaessa, ja asiakas voi itse päättää lihan kypsyysasteen.\n" +
+            "\n" +
+            "Keittiöpäällikkö Jesper Malinin varmalla otteella luotsaama keittiö panostaa erityisesti vastuullisuuteen. Fusionilaisille on tärkeää välttää ruokahävikkiä, ja tarjolla olevat ainekset hyödynnetään mahdollisimman tehokkaasti.\n" +
+            "\n" +
+            "Tunnelmallinen Fusion on saanut inspiraationsa muinaisesta Babylonista, vehreästä kaiken keskuksesta. Helsingin sydämessä sijaitsevaan ravintolaan onkin helppo tulla ja viihtyisät tilat sopivat loistavasti myös erilaisiin yritystilaisuuksiin. Yli 200-paikkainen tasokas ravintola tarjoaa tilat isollekin ryhmälle. Myös ravintolan 28 henkilön VIP-tila soveltuu esimerkiksi kokouksiin tai henkilöstön virkistyspäiviin.\n" +
+            "\n" +
+            "Fusionin löydät Kampin keskuksen 1. kerroksesta 5.10.2022 alkaen. Ravintola toimii ilman pöytävarauksia Kampin kauppakeskuksen Kampituspäivien ajan (5-9.10.2022), jonka jälkeiselle ajalle voi tehdä pöytävarauksia normaalisti. Tervetuloa!",
+        osoite: "Urho Kekkosen katu 1, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1339/images/tableonline-1339-fusion-restaurant-and-bar-LG1833d317528.png?dpr=1&q=90&auto=format&w=655&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Deliroom Ukkohauki",
+        kuvaus:"Tervetuloa legendaariseen Ukkohaukeen. Palvelemme Kauppakeskus Niityssä, Niittykummun metroaseman sisäpihalla.\n" +
+            "Lähes 20 vuotta palvellut Ukkohauki tunnetaan hyvästä ruuasta ja ystävällisestä palvelusta. Rennon tyylikkäät ja kodikkaat ravintolatilat kutsuvat viihtymään matkan varrella tai pidempään. Kauniit ravintolatilamme palvelevat myös yksityistilaisuuksissa.\n" +
+            "\n" +
+            "Uusien aukioloaikojen myötä ravintola palvelee entistä paremmin ja monipuolisemmin aamusta iltaan. Perinteinen, suosittu lounasbuffet klo 10.30-15 on katettu arkisin, rento à la carte on tarjolla tiistaista lauantaihin klo 15 jälkeen. Sunnuntaina katamme brunssin klo 11.30 ja klo 14.00. Myymme lounasta-, ala carte annoksia ja brunssikassia mukaan !",
+        osoite: "Kauppakeskus Niitty, Merituulentie 36, Espoo",
+        kuva: "https://tox.imgix.net/restaurant/708/images/tableonline-708-deliroom-ukkohauki-N817ce040edc9.jpg?dpr=1&q=90&auto=format&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Ravintola Paulette",
+        kuvaus:"Ranskalaisuuttaan sykkivä Paulette on tunnelmallinen kortteliravintola, jossa ruoka ja viini ovat intohimo.\n" +
+            "Pauletten ruoka perustuu pitkälti ranskalaiseen keittiöön, mutta myös nykypäivään ja Pohjolan makuihin nojautuvia raaka-aineita voi löytää lautaselta. Paulettessa pidetään yksinkertaisista ja selkeistä mauista, jotka tuovat hyvin esille juuri sesongissa olevan raaka-aineen tunnuspiirteet.\n" +
+            "\n" +
+            "Makukokemusta voi rikastuttaa vielä nauttien annokset hyvien viinien kera, jotka ravintola on harkitusti valinnut kohtaamaan sesongin annokset. Ruokalista vaihtuu sesonkien mukaan unohtamatta klassikkoannoksia, jotka pysyvät vaikka sesongit vaihtuvat.",
+        osoite: "Kapteeninkatu 24, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/1344/images/tableonline-1344-ravintola-paulette-KR18382f6eee6.jpg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },{
         nimi: "",
