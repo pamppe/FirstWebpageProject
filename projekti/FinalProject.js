@@ -2,79 +2,11 @@
 
 
 
- // Google places api
-/*const URL = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDo_qdGJxpkN6sy5I0HpiPhWfolYfFDGZM&location=-33.8670522,151.1957362&radius=5000&type=restaurant";
-
-fetch(URL).then(data=> {
-    return data.json()
-}).then(jsonData => {
-    console.log(jsonData.results)
-}).catch(error=> {
-    console.log(error);
-})*/
-
-
- /*var axios = require('axios');
-
- var config = {
-     method: 'get',
-     url: 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522%2C151.1957362&radius=1500&type=restaurant&keyword=cruise&key=AIzaSyDHipSWHOAyneYMFXWMMx9DmNAAi_HWRc4',
-     headers: { }
- };
-
- axios(config)
-     .then(function (response) {
-         console.log(JSON.stringify(response.data));
-     })
-     .catch(function (error) {
-         console.log(error);
-     });*/
-
-
-
-
-// Asetukset paikkatiedon hakua varten (valinnainen)
-/*const options = {
-    enableHighAccuracy: true,
-    timeout: 5000,
-    maximumAge: 0
-};
-
-// Funktio, joka ajetaan, kun paikkatiedot on haettu
-function success(pos) {
-    const crd = pos.coords;
-
-    // Tulostetaan paikkatiedot konsoliin
-    console.log('Your current position is:');
-    console.log(`Latitude : ${crd.latitude}`);
-    console.log(`Longitude: ${crd.longitude}`);
-    console.log(`More or less ${crd.accuracy} meters.`);
-
-    // Käytetään leaflet.js -kirjastoa näyttämään sijainti kartalla (https://leafletjs.com/)
-    const map = L.map('map').setView([crd.latitude, crd.longitude], 13);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
-
-    L.marker([crd.latitude, crd.longitude]).addTo(map)
-        .bindPopup('Olen tässä.')
-        .openPopup();
-}
-
-// Funktio, joka ajetaan, jos paikkatietojen hakemisessa tapahtuu virhe
-function error(err) {
-    console.warn(`ERROR(${err.code}): ${err.message}`);
-}
-
-// Käynnistetään paikkatietojen haku
-navigator.geolocation.getCurrentPosition(success, error, options); */
-
-
- // Note: This example requires that you consent to location sharing when
- // prompted by your browser. If you see the error "The Geolocation service
- // failed.", it means you probably did not give permission for the browser to
- // locate you.
  let map, infoWindow;
+ var directionsDisplay = new google.maps.DirectionsRenderer();
+ var directionsService = new google.maps.DirectionsService();
+
+infoWindow = new google.maps.InfoWindow();
 
  function initMap() {
      map = new google.maps.Map(document.getElementById("map"), {
@@ -116,11 +48,14 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
                      service.nearbySearch(request, callback);
 
 
+
+
                      function callback(results, status) {
                          if (status == google.maps.places.PlacesServiceStatus.OK) {
                              for (var i = 0; i < results.length; i++) {
                                  var place = results[i];
                                  createMarker(results[i].geometry.location, place.name);
+
                                  console.log(place);
                                  console.log(place.name);
 
@@ -139,13 +74,24 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
 
                      function createMarker(position,title) {
 
-                        const merkki = new google.maps.Marker({
+                        var merkki = new google.maps.Marker({
                              position: position,
                              map: map,
+                             animation: google.maps.Animation.DROP,
                              title: title,
 
 
+
+
                          });
+                         google.maps.event.addListener(merkki, 'click', function() {
+                             map.setZoom(20);
+                             map.setCenter(merkki.getPosition());
+                             infowindow.setContent(contentString);
+                             merkki.setMap(null);
+
+                         });
+
 
                      }
 
@@ -159,6 +105,7 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
              handleLocationError(false, infoWindow, map.getCenter());
          }
      });
+
  }
 
 
@@ -175,7 +122,7 @@ navigator.geolocation.getCurrentPosition(success, error, options); */
 function listItems(paikka){
     const pElem = document.createElement("p");
     const imgElem = document.createElement("img");
-    imgElem.src = paikka.photos[0].getUrl({'maxWidth': 100, 'maxHeight': 100});
+   // imgElem.src = paikka.photos[0].getUrl({'maxWidth': 100, 'maxHeight': 100});
     imgElem.alt = paikka;
 
     const divElem = document.getElementById("places");
@@ -187,13 +134,10 @@ function listItems(paikka){
         pElem.innerText = paikka.name;
     }
 }
-function navigoi(paikka){
-
-
-}
 
 
 
 
- //window.initMap = initMap;
+
+window.initMap = initMap;
 
