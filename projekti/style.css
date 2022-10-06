@@ -2,19 +2,43 @@
  /* styling navlist */
 body {
      background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Featernalzest.com%2Fwp-content%2Fuploads%2F2020%2F08%2F11.0_Saffron.jpg&f=1&nofb=1&ipt=dc443e578cf92525f62fbde4f3a551e3ace863522ec607d1541fec601853a42a&ipo=images");
+    background-position: center;
+    background-size: cover;
+
 }
 
  #box {
      background-size: 50px 50px, cover;
      background-color: white;
-     border: 20px;
+     border: 2px solid black;
      margin: 50px;
+
+
+
+ }
+ #box1 {
+     background-size: 50px 50px, cover;
+     background-color: white;
+     border: 2px solid black;
+     margin: 50px;
+
+ }
+ #box2 {
+     background-size: 50px 50px, cover;
+     background-color: white;
+     border: 2px solid black;
+     margin: 50px;
+
+ }
+ #palkki{
+     padding: 30px;
  }
 
 #navlist {
     background-color: #002D13;
     position: absolute;
-    width: 100%;
+    width: 97%;
+
 }
 
 /* styling navlist anchor element */
@@ -27,10 +51,6 @@ body {
     text-decoration: none;
     font-size: 15px;
 }
-#section{
-    padding-top: 45px;
-
-}
 
 .navlist-right{
     float:right;
@@ -40,6 +60,7 @@ body {
 #navlist a:hover {
     background-color: #ddd;
     color: black;
+
 }
 
 /* styling search bar */
@@ -47,7 +68,7 @@ body {
      width:300px;
      height:25px;
      border-radius:25px;
-     border: none;
+     border: 2px solid black;
      position: relative;
 
  }
