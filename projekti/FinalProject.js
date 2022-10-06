@@ -462,27 +462,46 @@ let placeID = [];
      Results();
  }
 function listItems(paikka){
-    const pElem = document.createElement("p");
+    //const pElem = document.createElement("p");
    // const imgElem = document.createElement("img");
    // imgElem.src = paikka.photos[i].getUrl({'maxWidth': 100, 'maxHeight': 100});
     //imgElem.alt = paikka;
 
-    const divElem = document.getElementById("places");
+    //const divElem = document.getElementById("places");
    // divElem.appendChild(imgElem);
-    divElem.appendChild(pElem);
+    //divElem.appendChild(pElem);
 
-    pElem.innerText = paikka.name;
+    //pElem.innerText = paikka.name;
     //pElem.innerText = paikka.rating;
     //if (imgElem.src == null){
        // pElem.innerText = paikka.name;
     //}
 }
+divElem = document.getElementById("ravintolat");
 
-
-
-
-
-window.onload = initMap;
+for (let i = 0; i < 20; i++) {
+    let htmlKoodi = `
+               <div>
+                     <article> 
+                            <header> ${ravintolat[i].nimi} </header> 
+                        
+                            <figure>
+                                <img src = "${ravintolat[i].kuva}" alt = "${ravintolat[i].nimi}">
+                                <figcaption> ${ravintolat[i].kuvaus} </figcaption> 
+                             </figure>
+                            <p> ${ravintolat[i].osoite} </p>
+                            <p> 
+                                <a></a>
+                            </p>
+                     </article>
+                  </div>   
+              
+              
+              
+              `;
+    divElem.innerHTML += htmlKoodi;
+}
+ window.onload = initMap;
 
 
 
