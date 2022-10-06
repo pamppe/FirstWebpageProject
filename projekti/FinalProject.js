@@ -1,12 +1,204 @@
 
 
 
-
  let map, infoWindow;
- var directionsDisplay = new google.maps.DirectionsRenderer();
- var directionsService = new google.maps.DirectionsService();
 
-infoWindow = new google.maps.InfoWindow();
+let ravintolat = [
+    {
+        nimi: "Burger King",
+        kuvaus: "Vuonna 1954 perustettu BURGER KING® on maailman toiseksi suurin hampurilaisravintolaketju. Ketjuun kuuluu yli 16 000 ravintolaa noin 100 maassa eri puolilla maailmaa. Suurin osa (n. 97 %) BURGER KING® -ravintoloista on itsenäisesti franchise-sopimuksilla toimivien yrittäjien pyörittämiä ravintoloita, joista monet ovat vuosikymmeniä toimineita perheyrityksiä. \n" +
+            "\n" +
+            "BURGER KING®-ravintoloissa käy maailmanlaajuisesti jopa yli 11 miljoona asiakasta päivässä. He tulevat, koska ravintolamme ovat tunnettuja siitä, että ne tarjoavat korkealaatuista, maukasta ja edullista ruokaa. BURGER KING®on alkuperäinen HOME OF THE WHOPPER®, jonka ensiluokkaiset raaka-aineet, itse kehittämämme reseptit, liekillä grillatut hampurilaiset ja perheystävällinen ruokailuympäristö ovat olleet tunnusmerkkimme jo yli 50 menestyksekästä vuotta.",
+        osoite: "Mannerheimintie 12\n" +
+                "00100 Helsinki",
+        kuva : 'https://images.deliveryhero.io/image/fd-po/LH/s4wr-hero.jpg?width=1600&height=400&quality=45'
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+    {
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },{
+        nimi: "",
+        kuvaus:"",
+        osoite: "",
+        kuva: ""
+
+    },
+];
+let placeID = [];
+
 
  function initMap() {
      map = new google.maps.Map(document.getElementById("map"), {
@@ -14,6 +206,16 @@ infoWindow = new google.maps.InfoWindow();
          zoom: 6,
 
      });
+
+
+
+
+
+
+
+
+
+
      infoWindow = new google.maps.InfoWindow();
 
      const locationButton = document.createElement("button");
@@ -41,12 +243,12 @@ infoWindow = new google.maps.InfoWindow();
                          location: pos,
                          radius: 5000,
                          type: ['restaurant'],
-
+                         query: hakuteksti.value
 
                      };
+                     infoWindow = new google.maps.InfoWindow();
                      service = new google.maps.places.PlacesService(map);
                      service.nearbySearch(request, callback);
-
 
 
 
@@ -54,11 +256,23 @@ infoWindow = new google.maps.InfoWindow();
                          if (status == google.maps.places.PlacesServiceStatus.OK) {
                              for (var i = 0; i < results.length; i++) {
                                  var place = results[i];
+
                                  createMarker(results[i].geometry.location, place.name);
 
                                  console.log(place);
                                  console.log(place.name);
+                                 console.log(place.rating);
+                                 console.log(place.user_ratings_total);
+                                 console.log(place.price_level);
+                                 console.log(place.opening_hours);
+                                 console.log(place.reviews);
+                                 console.log(place.place_id);
 
+                                 placeID.push(place.place_id);
+
+
+
+                                 ravintolat.push(place.name);
                                  //console.log(place.icon);
                                  //console.log(place.opening_hours);
 
@@ -70,6 +284,8 @@ infoWindow = new google.maps.InfoWindow();
                              }
                          }
                      }
+
+
 
 
                      function createMarker(position,title) {
@@ -87,10 +303,16 @@ infoWindow = new google.maps.InfoWindow();
                          google.maps.event.addListener(merkki, 'click', function() {
                              map.setZoom(20);
                              map.setCenter(merkki.getPosition());
-                             infowindow.setContent(contentString);
                              merkki.setMap(null);
 
+
+
+
+
+
+
                          });
+
 
 
                      }
@@ -121,23 +343,32 @@ infoWindow = new google.maps.InfoWindow();
  }
 function listItems(paikka){
     const pElem = document.createElement("p");
-    const imgElem = document.createElement("img");
-   // imgElem.src = paikka.photos[0].getUrl({'maxWidth': 100, 'maxHeight': 100});
-    imgElem.alt = paikka;
+   // const imgElem = document.createElement("img");
+   // imgElem.src = paikka.photos[i].getUrl({'maxWidth': 100, 'maxHeight': 100});
+    //imgElem.alt = paikka;
 
     const divElem = document.getElementById("places");
-    divElem.appendChild(imgElem);
+   // divElem.appendChild(imgElem);
     divElem.appendChild(pElem);
 
     pElem.innerText = paikka.name;
-    if (imgElem.src == null){
-        pElem.innerText = paikka.name;
-    }
+    //pElem.innerText = paikka.rating;
+    //if (imgElem.src == null){
+       // pElem.innerText = paikka.name;
+    //}
 }
 
 
 
 
 
-window.initMap = initMap;
+window.onload = initMap;
+const hakuteksti = document.getElementById("hakuteksti").value;
+const hakunappi = document.getElementById("hakunappi");
+
+for (let i = 0; i < ravintolat.length; i++){
+    document.write(ravintolat[i]);
+ }
+
+
 
