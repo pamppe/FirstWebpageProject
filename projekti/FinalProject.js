@@ -485,9 +485,9 @@ for (let i = 0; i < 20; i++) {
                      <article> 
                             <header> ${ravintolat[i].nimi} </header> 
                         
-                            <figure>
-                                <img src = "${ravintolat[i].kuva}" alt = "${ravintolat[i].nimi}">
-                                <figcaption> ${ravintolat[i].kuvaus} </figcaption> 
+                            <figure class="fullwrap">
+                                <img id="foodpics" src = "${ravintolat[i].kuva}" alt = "${ravintolat[i].nimi}">
+                                <figcaption class="fullcap"> ${ravintolat[i].kuvaus} </figcaption> 
                              </figure>
                             <p> ${ravintolat[i].osoite} </p>
                             <p> 
