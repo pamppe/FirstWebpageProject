@@ -1,11 +1,14 @@
 
  /* styling navlist */
- #mainheader {
+body {
      background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Featernalzest.com%2Fwp-content%2Fuploads%2F2020%2F08%2F11.0_Saffron.jpg&f=1&nofb=1&ipt=dc443e578cf92525f62fbde4f3a551e3ace863522ec607d1541fec601853a42a&ipo=images");
-     position: center;
-     height: 200px;
-     margin: auto;
+}
 
+ #box {
+     background-size: 50px 50px, cover;
+     background-color: white;
+     border: 20px;
+     margin: 50px;
  }
 
 #navlist {
@@ -60,4 +63,11 @@
      width: 400px;
      height: 400px;
  }
+#places {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
 
+}
