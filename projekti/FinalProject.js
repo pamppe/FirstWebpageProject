@@ -220,10 +220,11 @@ let ravintolat = [
         kuva: "https://tox.imgix.net/restaurant/1344/images/tableonline-1344-ravintola-paulette-KR18382f6eee6.jpg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: "https://tox.imgix.net/restaurant/1216/images/tableonline-1216-wellamo-MI18002f736eb.jpg?dpr=1&q=90&auto=format&w=844&h=844"
+        nimi: "The Bull & The Firm",
+        kuvaus:"The Bull & The Firm on rento illanviettopaikka Kurvin sydämessä.\n" +
+            "The Bull & The Firm on baari josta saa kaikkea: rakkaudella valmistettua ruokaa ja cocktaileja sekä huolella valittuja viinejä.",
+        osoite: "Kulmavuorenkatu 2, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/911-1548419344747.jpeg?dpr=1&q=90&auto=format&h=655"
 
     },{
         nimi: "Wellamo",
@@ -249,40 +250,55 @@ let ravintolat = [
         kuva: "https://tox.imgix.net/restaurant/857/images/tableonline-857-restoran-harg-ND180dcf62dc8.jpg?dpr=1&q=90&auto=format&w=726&h=726"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Samrat",
+        kuvaus:"Ravintola Samrat tarjoaa intialaisen keittiön herkkuja Eteläesplandilla.\n" +
+            "Samratin valikoimiin kuuluu monipuolisesti herkkuja eri puolilta Intiaa ja suosittuja klassikoita, kuten erilaisia tandooriruokia. Samratin autenttisesta laadusta kertoo se, että ravintola on myös Suomessa asuvien laatutietoisten intialaisten suosiossa.\n" +
+            "\n" +
+            "Tyylikkäät kokopuiset kalusteet, intialaiset koristeet ja klassinen intialainen musiikki luovat hienot puitteet ruokailulle. Kesäaikaan Samratissa on myös terassi auki, missä voi nauttia vaikkapa lasillisen intialaista olutta. Samrat toimittaa ruokaa myös yksityistilaisuuksiin (vähintään 25 henkilöä).",
+        osoite: "Eteläesplanadi 22 c, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/42.jpg?dpr=1&q=90&auto=format&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Karljohan",
+        kuvaus:"Karljohan valmistaa klassikoita ja perinneruokia suurella sydämellä.\n" +
+            "Talon vorschmack, ylikypsähäränrinta, kateenkorva ja muut sisäelinruoat ovat löytäneet yli 30 vuodessa monta uskollista ystävää. Päivittäin vaihtuvalta 10–12 ruokalajin lounaslistalta saattaa löytyä vaikkapa tirripaistia eli savolaista läskisoosia, vanhanajan tillilihaa tai lammaskaalia. Tarjolla on aina myös päivän kalaa, lihaa ja sisäelimiä. Lounaan iloinen hälinä taipuu kodikkaaseen kiireettömyyteen, kun ravintola avaa viideltä ovensa illallisvieraille. Hyvän ruoan ystävä arvostaa Karljohanin huolella valmistettuja klassikkoruokia ja kauden erikoisuuksia, mutkatonta palvelua sekä intiimiä tunnelmaa.\n" +
+            "\n" +
+            "Lounas ma-pe 11-15. Karljohan ei ota lounasvarauksia.",
+        osoite: "Yrjönkatu 21, Helsinki",
+        kuva: "https://tox.imgix.net/restaurant/480/images/tableonline-480-karljohan-E81801447dcf9.JPG?dpr=1&q=90&auto=format&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Caverna",
+        kuvaus:"Luola, ruoka ja ihminen ovat aina kuuluneet yhteen. Caverna toi luolan Helsingin keskustaan ja teki siitä viihtyisän.\n" +
+            " \n" +
+            "Tunnelmallisen luolaravintolan valtti on monipuolinen valikoima ruokia eri puolilta maailmaa. Kansainvälisen menun erikoisuuksina ovat japanilainen Teppanyaki sekä brasilialaiset Churrasco-lihavartaat.\n" +
+            "\n" +
+            " ",
+        osoite: "Yliopistonkatu 5, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/625-1560941725686.jpeg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Pontus",
+        kuvaus:"Ravintola Pontus on Antto Melasniemen, Antti Eerikäisen ja Heikki Purhosen (Ateljé Finne, Putte’s Bar & Pizza, Jackie) korttelibistro ja viinibaari Ullanlinnassa.\n" +
+            "Pontus tarjoaa antipastoja, salaatteja, kalaa, lihaa, pizzaa sekä pehmisjäätelöä kotitekoisin lisukkein.",
+        osoite: "Kapteeninkatu 26, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/677-1517303440487.jpeg?dpr=1&q=90&auto=format&w=655&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "W30",
+        kuvaus:"Tervetuloa nauttimaan pitkä illallinen tai muutama cocktail kauniiseen Wuorion talon miljööseen.\n" +
+            "W30 on makumatka ranskalais-skandinaaviseen keittiöön. Ravintolan menut rakennetaan kauden tuoreista raaka-aineista ja ruoan valmistuksessa käytetään erilaisia tekniikoita kulinaarisen kokemuksen maksimoimiseksi.\n" +
+            "\n" +
+            "Ravintoloitsijana toimii Kristian Vuojärvi ja keittiössä kauhan varteen tarttuu Simo Pietarinen. Molemmat ovat tuttuja mm. Suomen kokkimaajoukkueesta.",
+        osoite: "Unioninkatu 30, Helsinki\n",
+        kuva: "https://tox.imgix.net/restaurant/1084/images/tableonline-1084-w30-2X170a4f88225.png?dpr=1&q=90&auto=format&h=655"
 
     },{
-        nimi: "",
-        kuvaus:"",
-        osoite: "",
-        kuva: ""
+        nimi: "Merimakasiini",
+        kuvaus:"Vuodesta 1986 toiminut legendaarinen Ravintola Merimakasiini Hietalahden rannassa meren äärellä on meren ystävien suosikkiravintola.\n" +
+            "Meren herkut maistuvat ja merielämä näkyy ja tuntuu, kun astut sisään tunnelmalliseen Merimakasiiniin. Tuoreista sesongin raaka-aineista valmistetut herkulliset kala- ja äyriäisruoat ovat keskiössä ruokalistalla, mistä löytyy klassikkojen kuten lohikeiton ja bouillabaissen lisäksi mahtavia kauden makuja. Äyriäisherkkuja maistellessa aika kuluu kuin laineilla. Merimakasiinin annoksissa korostuvat tuoreus, laatu ja puhtaus. Ystävällinen ja ammattitaitoinen henkilökunta pitää erinomaista huolta vieraista. Parempaa paikkaa meren herkkujen ja merellisen elämän kokemiseen ei Helsingistä löydy.",
+        osoite: "Hietalahdenranta 14, Helsinki",
+        kuva: "https://images.weserv.nl/?url=https://tableonline.static.cm/restaurant/837-1529428354714.jpeg?dpr=1&q=90&auto=format&h=655"
 
     },
     {
