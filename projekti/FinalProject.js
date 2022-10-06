@@ -9,14 +9,12 @@ let ravintolat = [
         kuvaus: "Vuonna 1954 perustettu BURGER KING® on maailman toiseksi suurin hampurilaisravintolaketju. Ketjuun kuuluu yli 16 000 ravintolaa noin 100 maassa eri puolilla maailmaa. Suurin osa (n. 97 %) BURGER KING® -ravintoloista on itsenäisesti franchise-sopimuksilla toimivien yrittäjien pyörittämiä ravintoloita, joista monet ovat vuosikymmeniä toimineita perheyrityksiä. \n" +
             "\n" +
             "BURGER KING®-ravintoloissa käy maailmanlaajuisesti jopa yli 11 miljoona asiakasta päivässä. He tulevat, koska ravintolamme ovat tunnettuja siitä, että ne tarjoavat korkealaatuista, maukasta ja edullista ruokaa. BURGER KING®on alkuperäinen HOME OF THE WHOPPER®, jonka ensiluokkaiset raaka-aineet, itse kehittämämme reseptit, liekillä grillatut hampurilaiset ja perheystävällinen ruokailuympäristö ovat olleet tunnusmerkkimme jo yli 50 menestyksekästä vuotta.",
-        osoite: "Mannerheimintie 12\n" +
-                "00100 Helsinki",
         kuva : 'https://images.deliveryhero.io/image/fd-po/LH/s4wr-hero.jpg?width=1600&height=400&quality=45'
 
     },
     {
-        nimi: "",
-        kuvaus:"",
+        nimi: "Mc Donald's",
+        kuvaus:"Tällä hetkellä asiakkaita palvelee 69 McDonald’s -perheravintolaa Helsingistä Rovaniemelle. McDonald’s-ravintolat toimivat pääasiassa paikallisin yrittäjävoimin ja ovat monella alueella tärkeä työllistäjä. Työskentely Mäkkärissä tarjoaa monelle hyvän ponnahduslaudan työelämään.",
         osoite: "",
         kuva: ""
 
@@ -243,7 +241,7 @@ let placeID = [];
                          location: pos,
                          radius: 5000,
                          type: ['restaurant'],
-                         query: hakuteksti.value
+
 
                      };
                      infoWindow = new google.maps.InfoWindow();
@@ -363,12 +361,7 @@ function listItems(paikka){
 
 
 window.onload = initMap;
-const hakuteksti = document.getElementById("hakuteksti").value;
-const hakunappi = document.getElementById("hakunappi");
 
-for (let i = 0; i < ravintolat.length; i++){
-    document.write(ravintolat[i]);
- }
 
 
 
