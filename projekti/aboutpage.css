@@ -1,0 +1,97 @@
+body {
+    font-family: "Georgia", Times, serif;
+    margin: 0;
+    background-color: #0F1416;
+}
+
+html {
+    box-sizing: border-box;
+    color: white;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+
+}
+
+.about-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    background-image: url("https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 25px;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    padding: 0 16px;
+    text-align: center;
+
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#kim {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#petteri {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#emil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    color: gray;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #000;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 60px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
