@@ -16,7 +16,7 @@ let ravintolat = [
         nimi: "Mc Donald's",
         kuvaus:"Tällä hetkellä asiakkaita palvelee 69 McDonald’s -perheravintolaa Helsingistä Rovaniemelle. McDonald’s-ravintolat toimivat pääasiassa paikallisin yrittäjävoimin ja ovat monella alueella tärkeä työllistäjä. Työskentely Mäkkärissä tarjoaa monelle hyvän ponnahduslaudan työelämään.",
         osoite: "",
-        kuva: "https://static.wikia.nocookie.net/ronaldmcdonald/images/b/b5/Mcdonalds-logo-current-1024x750.png/revision/latest/scale-to-width-down/1024?cb=20180730081148"
+        kuva: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZ14nzGV33AJvLu8cTeFsbiyXNfl5fhCEbyaqjRE5tJ3NcAvoEV9AIqW0hw5e5z93lNw&usqp=CAU"
 
     },
     {
@@ -366,7 +366,7 @@ let placeID = [];
 
 
                      };
-                     infoWindow = new google.maps.InfoWindow();
+
                      service = new google.maps.places.PlacesService(map);
                      service.nearbySearch(request, callback);
 
@@ -378,6 +378,7 @@ let placeID = [];
                                  var place = results[i];
 
                                  createMarker(results[i].geometry.location, place.name);
+
 
                                  console.log(place);
                                  console.log(place.name);
@@ -392,13 +393,13 @@ let placeID = [];
 
 
 
-                                 ravintolat.push(place.name);
+
                                  //console.log(place.icon);
                                  //console.log(place.opening_hours);
 
 
 
-                                 listItems(place);
+
 
 
                              }
@@ -410,7 +411,8 @@ let placeID = [];
 
                      function createMarker(position,title) {
 
-                        var merkki = new google.maps.Marker({
+
+                         var merkki = new google.maps.Marker({
                              position: position,
                              map: map,
                              animation: google.maps.Animation.DROP,
@@ -419,11 +421,15 @@ let placeID = [];
 
 
 
-                         });
+
+                        });
+
+
                          google.maps.event.addListener(merkki, 'click', function() {
                              map.setZoom(20);
                              map.setCenter(merkki.getPosition());
                              merkki.setMap(null);
+
 
 
 
@@ -501,7 +507,56 @@ for (let i = 0; i < 20; i++) {
               `;
     divElem.innerHTML += htmlKoodi;
 }
+
  window.onload = initMap;
+
+
+
+ const hakuElem = document.getElementById("haku");
+ hakuElem.addEventListener("keyup", (e) =>{
+    const searchString = e.target.value.toLowerCase();
+    const filteredCharacters = ravintolat.filter((character) => {
+        return (
+            character.nimi.toLowerCase().includes(searchString)
+
+        );
+    });
+    displayCharacters(filteredCharacters);
+ });
+
+ const displayCharacters = (characters) => {
+     const htmlString = characters
+         .map((character) => {
+             return `
+           <div>
+                     <article> 
+                            <header> ${character.nimi} </header> 
+                        
+                            <figure class="fullwrap">
+                                <img id="foodpics" src = "${character.kuva}" alt = "${character.nimi}">
+                                <figcaption class="fullcap"> ${character.kuvaus} </figcaption> 
+                             </figure>
+                            <p> ${character.osoite} </p>
+                            <p> 
+                                <a></a>
+                            </p>
+                     </article>
+                  </div>   
+        `;
+         })
+         .join('');
+     divElem.innerHTML = htmlString;
+ };
+
+
+
+
+
+
+
+
+
+
 
 
 
