@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ota yhteyttä</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <div class="about-section">
+  <h1>Ota yhteyttä</h1>
+  </div>
+  <div class="container">
+    <form action="action_page.php">
+
+      <label for="etunimi">Etunimi</label>
+      <input type="text" id="etunimi" name="etunimi" placeholder="Anna nimesi...">
+
+      <label for="sukunimi">Sukunimi</label>
+      <input type="text" id="sukunimi" name="sukunimi" placeholder="Anna sukunimesi...">
+
+      <label for="sahkoposti">Sähköposti</label>
+      <input type="text" id="sahkoposti" name="sahkoposti" placeholder="Anna sähköpostisi...">
+
+      <label for="asia">Mitä asiasi koskee?</label>
+      <select id="asia" name="asia">
+        <option value="yhteydenotto">Yhteydenotto</option>
+        <option value="sivuntoimivuus">Sivun käytettävyys</option>
+        <option value="bugi">Häikkä sivustolla</option>
+        <option value="avoinpalaute">Avoin palaute</option>
+        <option value="kehu">Kehu</option>
+        <option value="muu">Jotain muuta</option>
+      </select>
+
+      <label for="viesti">Viesti</label>
+      <textarea id="viesti" name="viesti" placeholder="Kirjoita viesti..." style="height:200px"></textarea>
+
+      <input type="submit" value="Lähetä" onclick="alert('Kiitos viestistänne! Olemme Teihin yhteydessä pikimmiten.')">
+
+      <form>
+      <input type="button" value="Takaisin" onclick="history.back()">
+      </form>
+    </form>
+  </div>
+</head>
+<body>
+
+</body>
+</html>
