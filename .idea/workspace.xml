@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Kartan markereihin lisätty kuvat&#10;Paikanna nappi irrotettu kartasta jotta voi muokataa css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/Kartta.js" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/Kartta.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <workItem from="1664829881335" duration="57800000" />
       <workItem from="1665138432017" duration="1121000" />
       <workItem from="1665179887076" duration="4994000" />
-      <workItem from="1665246076986" duration="10979000" />
+      <workItem from="1665246076986" duration="11679000" />
     </task>
     <task id="LOCAL-00001" summary="Api key">
       <created>1664804694627</created>
@@ -224,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665254674996</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Kartan markereihin lisätty kuvat&#10;Paikanna nappi irrotettu kartasta jotta voi muokataa css">
+      <created>1665257357112</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665257357112</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
