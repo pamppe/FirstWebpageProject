@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Kartan markereihin lisätty kuvat" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FaqxOogxwoWj3qgqRCDBjPtN1q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kimra/WebstormProjects/FinalProject&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kimra\WebstormProjects\FinalProject\projekti" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="" />
+      <created>1664740788324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664740788324</updated>
+      <workItem from="1664740789496" duration="4695000" />
+      <workItem from="1664805901516" duration="4583000" />
+      <workItem from="1664829881335" duration="57800000" />
+      <workItem from="1665138432017" duration="1121000" />
+      <workItem from="1665179887076" duration="4994000" />
+      <workItem from="1665246076986" duration="8477000" />
+    </task>
+    <task id="LOCAL-00001" summary="Api key">
+      <created>1664804694627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664804694627</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Kansiot järjestetty">
+      <created>1664805681582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805681582</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Kansiot järjestetty">
+      <created>1664805834499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805834499</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kartta lisätty css Js ja html muokkauksineen.&#10;Google api saatu tulostamaan dataa.">
+      <created>1664833018582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664833018582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kartta lisätty css Js ja html muokkauksineen.&#10;Google api saatu tulostamaan dataa.">
+      <created>1664955921461</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664955921461</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Google maps updated">
+      <created>1664960082664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664960082664</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Google maps updated">
+      <created>1664960244653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664960244653</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Google maps updated">
+      <created>1665002414461</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665002414461</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Nimet lisätty merkkeihin on mousehover">
+      <created>1665005914467</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665005914467</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Kesken eräinen">
+      <created>1665038548906</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665038548906</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Event listener lisätty markereille.&#10;(Ei onnistunut laittaa tietoja markerista clikatessa muttä nimeä clikatessä näyttää ravintolan tiedot)">
+      <created>1665045752819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665045752819</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Taulukko eri ravintoloille">
+      <created>1665064686927</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665064686927</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Taulukko eri ravintoloille">
+      <created>1665065344772</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665065344773</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ravintoloita lisätty">
+      <created>1665066963246</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665066963246</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ravintoloita lisätty">
+      <created>1665067148667</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665067148667</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ravintoloita lisätty">
+      <created>1665067335164</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665067335164</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ravintoloita lisätty">
+      <created>1665067749344</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665067749344</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Ravintoloita tulostettu etusivulle taulukosta">
+      <created>1665069239449</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665069239449</updated>
+    </task>
+    <task id="LOCAL-00019" summary="search bar laitettu toimimaan">
+      <created>1665183532082</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665183532082</updated>
+    </task>
+    <task id="LOCAL-00020" summary="BurgerKing alkioon lisätty osoite rivi, jottei sivustolla näy undefined">
+      <created>1665185024694</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665185024694</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Kartta lisätty erillisen linkin taakse">
+      <created>1665247344079</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665247344079</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Kartan markereihin lisätty kuvat">
+      <created>1665254348629</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665254348629</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="514850d4-f88d-49ed-a35c-a2a384e08c2f">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="05561eafd87514b65bc92fe8550bef5161f81467..03bfdc7e9a654a2002b92ea5d6b5e1593c0e09ed" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="82290aab-cefd-42e5-9456-015eb8ecdfa7">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="05561eafd87514b65bc92fe8550bef5161f81467..03bfdc7e9a654a2002b92ea5d6b5e1593c0e09ed" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="e968040d-5743-46c4-a229-5f11d93c9193">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="05561eafd87514b65bc92fe8550bef5161f81467..03bfdc7e9a654a2002b92ea5d6b5e1593c0e09ed" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Api key" />
+    <MESSAGE value="Kansiot järjestetty" />
+    <MESSAGE value="kartta lisätty css Js ja html muokkauksineen.&#10;Google api saatu tulostamaan dataa." />
+    <MESSAGE value="Google maps updated" />
+    <MESSAGE value="Nimet lisätty merkkeihin on mousehover" />
+    <MESSAGE value="Kesken eräinen" />
+    <MESSAGE value="Event listener lisätty markereille.&#10;(Ei onnistunut laittaa tietoja markerista clikatessa muttä nimeä clikatessä näyttää ravintolan tiedot)" />
+    <MESSAGE value="Taulukko eri ravintoloille" />
+    <MESSAGE value="Ravintoloita lisätty" />
+    <MESSAGE value="Ravintoloita tulostettu etusivulle taulukosta" />
+    <MESSAGE value="search bar laitettu toimimaan" />
+    <MESSAGE value="BurgerKing alkioon lisätty osoite rivi, jottei sivustolla näy undefined" />
+    <MESSAGE value="Kartta lisätty erillisen linkin taakse" />
+    <MESSAGE value="Kartan markereihin lisätty kuvat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kartan markereihin lisätty kuvat" />
+  </component>
+</project>
