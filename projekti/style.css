@@ -4,12 +4,7 @@ body {
     background-image: url("https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg");
     background-position: center;
     background-size: contain;
-
-
 }
-
-
-
 
  #box1 {
      background-size: cover;
@@ -30,6 +25,7 @@ body {
      text-align: center;
      font-family: "Georgia", Times, serif;
 
+
  }
  #palkki{
      padding: 30px;
@@ -39,22 +35,28 @@ body {
     background-color: black;
     position: absolute;
     width: 97%;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
 }
+
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     width: 200px;
-
-
 }
-
+ #footer {
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:2em;
+     text-align: center;
+ }
 /* styling navlist anchor element */
 #navlist a {
 
-
-    float:left;
+float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -63,6 +65,8 @@ body {
     font-size: 15px;
     letter-spacing: 2px;
     transition: .5s;
+
+
 }
 
 
@@ -71,6 +75,7 @@ body {
     background-color: #ddd;
     color: black;
     letter-spacing: 10px;
+    text-align: center;
 
 }
 

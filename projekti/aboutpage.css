@@ -120,6 +120,7 @@ html {
     background-color: darkgrey;
 }
 
+
 @media screen and (max-width: 60px) {
     .column {
         width: 100%;
