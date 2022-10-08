@@ -110,6 +110,7 @@ function initMap() {
 
 
 
+
                         });
 
 
@@ -118,7 +119,7 @@ function initMap() {
 
                             const kuva = place.photos[0].getUrl({'maxWidth': 500, 'maxHeight': 500});
 
-                            map.setZoom(20);
+                            map.setZoom(14);
                             map.setCenter(merkki.getPosition());
                             infoWindow.setPosition(position);
 
@@ -126,13 +127,13 @@ function initMap() {
                                 infoWindow.setContent(   `
                <div>
                      <article> 
-                            <header> ${place.name} </header> 
+                            <header id="markerHeader"> ${place.name} </header> 
                         
                             <figure class="fullwrap">
                                 <img id="ravintolakuva" src = "imagenotfound.png" alt = "${place.name}">
-                                <figcaption class="fullcap"> ${place.name} </figcaption> 
+                                
                              </figure>
-                            <p> ${place.name} </p>
+                            <p> ${place.vicinity} <br> ${place.rating}</p>
                             <p> 
                                 <a></a>
                             </p>
@@ -148,13 +149,13 @@ function initMap() {
                                 infoWindow.setContent(  `
                <div>
                      <article> 
-                            <header> ${place.name} </header> 
+                            <header id="markerHeader"><h2> ${place.name} </h2></header> 
                         
                             <figure class="fullwrap">
                                 <img id="ravintolakuva" src = "${kuva}" alt = "${place.name}">
-                                <figcaption class="fullcap"> ${place.name} </figcaption> 
+                                
                              </figure>
-                            <p> ${place.name} </p>
+                            <p><strong>Osoite: </strong> ${place.vicinity} <br> <strong>Arvostelu: </strong> ${place.rating}/5.0</p>
                             <p> 
                                 <a></a>
                             </p>
