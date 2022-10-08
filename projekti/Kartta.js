@@ -1,7 +1,9 @@
-
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 60.192, lng: 24.945 },
+        center: {
+            lat: 60.192,
+            lng: 24.945
+        },
         zoom: 6,
 
     });
@@ -9,14 +11,7 @@ function initMap() {
 
 
 
-
-
-
-
-
-
     infoWindow = new google.maps.InfoWindow();
-
 
 
 
@@ -60,12 +55,7 @@ function initMap() {
 
 
 
-
-
-
-
-
-                                createMarker(results[i].geometry.location,place.name, place);
+                                createMarker(results[i].geometry.location, place.name, place);
 
 
                                 console.log(place);
@@ -80,12 +70,8 @@ function initMap() {
 
 
 
-
-
                                 //console.log(place.icon);
                                 //console.log(place.opening_hours);
-
-
 
 
 
@@ -97,8 +83,8 @@ function initMap() {
 
 
 
-                    function createMarker(position,title, place) {
-                        if (merkki && merkki.setMap){
+                    function createMarker(position, title, place) {
+                        if (merkki && merkki.setMap) {
                             merkki.setMap(null);
                         }
 
@@ -107,9 +93,6 @@ function initMap() {
                             map: map,
                             animation: google.maps.Animation.DROP,
                             title: title,
-
-
-
 
 
 
@@ -126,8 +109,11 @@ function initMap() {
                             map.setCenter(merkki.getPosition());
                             infoWindow.setPosition(position);
 
-                            if (place.photos[0].getUrl({'maxWidth': 500, 'maxHeight': 500}) == null){
-                                infoWindow.setContent(   `
+                            if (place.photos[0].getUrl({
+                                'maxWidth': 500,
+                                'maxHeight': 500
+                            }) == null) {
+                                infoWindow.setContent(`
                <div>
                      <article> 
                             <header id="markerHeader"> ${place.name} </header> 
@@ -146,10 +132,9 @@ function initMap() {
               
               
               `)
-                                infoWindow.open(map, merkki);
-                                ;
+                                infoWindow.open(map, merkki);;
                             } else {
-                                infoWindow.setContent(  `
+                                infoWindow.setContent(`
                <div>
                      <article> 
                             <header id="markerHeader"><h2> ${place.name} </h2></header> 
@@ -168,15 +153,8 @@ function initMap() {
               
               
               `)
-                                infoWindow.open(map, merkki);
-                                ;
+                                infoWindow.open(map, merkki);;
                             }
-
-
-
-
-
-
 
 
 
@@ -204,9 +182,9 @@ function initMap() {
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
     infoWindow.setContent(
-        browserHasGeolocation
-            ? "Error: The Geolocation service failed."
-            : "Error: Your browser doesn't support geolocation."
+        browserHasGeolocation ?
+            "Error: The Geolocation service failed." :
+            "Error: Your browser doesn't support geolocation."
     );
     infoWindow.open(map);
     Results();

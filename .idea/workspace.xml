@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Kartan markereihin lisätty kuvat&#10;Paikanna nappi irrotettu kartasta jotta voi muokataa css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/Kartta.js" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/Kartta.js" afterDir="false" />
-    </list>
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Kartan markereihin lisätty kuvat&#10;Paikanna nappi irrotettu kartasta jotta voi muokataa css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +59,7 @@
       <workItem from="1665138432017" duration="1121000" />
       <workItem from="1665179887076" duration="4994000" />
       <workItem from="1665246076986" duration="13096000" />
+      <workItem from="1665264723926" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Api key">
       <created>1664804694627</created>
