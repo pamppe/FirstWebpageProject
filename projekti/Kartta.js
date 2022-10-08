@@ -23,6 +23,7 @@ function initMap() {
 
     paikannaElem.addEventListener("click", () => {
         // Try HTML5 geolocation.
+
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
                 (position) => {
@@ -97,7 +98,9 @@ function initMap() {
 
 
                     function createMarker(position,title, place) {
-
+                        if (merkki && merkki.setMap){
+                            merkki.setMap(null);
+                        }
 
                         var merkki = new google.maps.Marker({
                             position: position,
@@ -117,13 +120,13 @@ function initMap() {
 
                         google.maps.event.addListener(merkki, 'click', function() {
 
-                            const kuva = place.photos[0].getUrl({'maxWidth': 500, 'maxHeight': 500});
+
 
                             map.setZoom(14);
                             map.setCenter(merkki.getPosition());
                             infoWindow.setPosition(position);
 
-                            if (kuva == null){
+                            if (place.photos[0].getUrl({'maxWidth': 500, 'maxHeight': 500}) == null){
                                 infoWindow.setContent(   `
                <div>
                      <article> 
@@ -133,7 +136,7 @@ function initMap() {
                                 <img id="ravintolakuva" src = "imagenotfound.png" alt = "${place.name}">
                                 
                              </figure>
-                            <p> ${place.vicinity} <br> ${place.rating}</p>
+                            <p><strong>Osoite: </strong> ${place.vicinity} <br> <strong>Arvostelu: </strong> ${place.rating}/5</p>
                             <p> 
                                 <a></a>
                             </p>
@@ -152,10 +155,10 @@ function initMap() {
                             <header id="markerHeader"><h2> ${place.name} </h2></header> 
                         
                             <figure class="fullwrap">
-                                <img id="ravintolakuva" src = "${kuva}" alt = "${place.name}">
+                                <img id="ravintolakuva" src = "${place.photos[0].getUrl({'maxWidth': 500, 'maxHeight': 500})}" alt = "${place.name}">
                                 
                              </figure>
-                            <p><strong>Osoite: </strong> ${place.vicinity} <br> <strong>Arvostelu: </strong> ${place.rating}/5.0</p>
+                            <p><strong>Osoite: </strong> ${place.vicinity} <br> <strong>Arvostelu: </strong> ${place.rating}/5</p>
                             <p> 
                                 <a></a>
                             </p>
