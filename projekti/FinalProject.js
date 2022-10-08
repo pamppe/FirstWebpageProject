@@ -9,6 +9,7 @@ let ravintolat = [
         kuvaus: "Vuonna 1954 perustettu BURGER KING® on maailman toiseksi suurin hampurilaisravintolaketju. Ketjuun kuuluu yli 16 000 ravintolaa noin 100 maassa eri puolilla maailmaa. Suurin osa (n. 97 %) BURGER KING® -ravintoloista on itsenäisesti franchise-sopimuksilla toimivien yrittäjien pyörittämiä ravintoloita, joista monet ovat vuosikymmeniä toimineita perheyrityksiä. \n" +
             "\n" +
             "BURGER KING®-ravintoloissa käy maailmanlaajuisesti jopa yli 11 miljoona asiakasta päivässä. He tulevat, koska ravintolamme ovat tunnettuja siitä, että ne tarjoavat korkealaatuista, maukasta ja edullista ruokaa. BURGER KING®on alkuperäinen HOME OF THE WHOPPER®, jonka ensiluokkaiset raaka-aineet, itse kehittämämme reseptit, liekillä grillatut hampurilaiset ja perheystävällinen ruokailuympäristö ovat olleet tunnusmerkkimme jo yli 50 menestyksekästä vuotta.",
+        osoite: "",
         kuva : 'https://images.deliveryhero.io/image/fd-po/LH/s4wr-hero.jpg?width=1600&height=400&quality=45'
 
     },
