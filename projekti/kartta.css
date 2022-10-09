@@ -6,10 +6,10 @@ body {
 #map {
     display: block;
     margin-right:auto;
-    margin-left: 10%;
+    margin-left: auto;
     height: 700px;
     width: 1000px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 #palkki{
     padding: 30px;
@@ -18,11 +18,11 @@ body {
 #navlist {
     background-color: black;
     position: absolute;
-    width: 97%;
+    width: 95%;
+
 }
 /* styling navlist anchor element */
 #navlist a {
-
 
     float:left;
     display: block;
@@ -43,7 +43,7 @@ body {
     letter-spacing: 10px;
 }
 .about-section {
-    padding: 40px;
+    padding: 10px;
     text-align: center;
     background-color: #474e5d;
     color: white;
@@ -62,5 +62,8 @@ body {
         background-size: cover;
         background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
         margin: 50px;
-
+       }
+    #nayta {
+        position: relative;
+        padding: 20px;
     }

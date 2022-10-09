@@ -3,6 +3,7 @@ body {
     background-image: url("https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg");
     background-position: center;
     background-size: contain;
+
 }
 
 #box1 {
@@ -19,7 +20,7 @@ body {
 
 #box2 {
     background-size: 50px 50px, cover;
-    background-color: #0F1416;
+    background-color: #131A1C;
     margin: 30px;
     text-align: center;
     font-family: "Georgia", Times, serif;
@@ -27,7 +28,9 @@ body {
 
 }
 #palkki{
-    padding: 30px;
+   padding-left: 20px;
+    padding-bottom: 45px;
+    padding-top: 30px;
 }
 
 #navlist {
@@ -79,7 +82,7 @@ body {
 }
 
 /* styling search bar! */
-form{
+form {
     float: right;
     position: relative;
     transition: all 1s;
@@ -89,7 +92,7 @@ form{
     box-sizing: border-box;
     border-radius: 25px;
     border: 4px solid black;
-    padding: 5px;
+
 }
 
 input{
@@ -138,11 +141,11 @@ form:hover .fa{
 /* laatikoiden asettelua ja kuvien */
 #ravintolat{
     flex-wrap: wrap;
-    display: inline-flex;
+    display: flex;
     text-align: center;
     flex: fit-content;
-    flex-basis: 100%;
-    padding: 85px;
+    flex-basis: 80%;
+    margin: 37px;
 
 }
 article{
@@ -171,11 +174,10 @@ header {
 .fullcap {
     box-sizing: border-box;
     width: 100%;
-    height: 150%;
+    height: 130%;
     position: absolute;
     top: 0; left: 0;
     text-align: center;
-
     background-color: rgb(0, 0, 0, 0.9);
     color: white;
 }
