@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Eemilin muutokset lisätty ja korjattu xD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/aboutpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/aboutpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/aboutpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/aboutpage.html" afterDir="false" />
-    </list>
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="kuva lisätty" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +61,7 @@
       <workItem from="1665179887076" duration="4994000" />
       <workItem from="1665246076986" duration="13096000" />
       <workItem from="1665264723926" duration="2892000" />
-      <workItem from="1665322529006" duration="6577000" />
+      <workItem from="1665322529006" duration="6895000" />
     </task>
     <task id="LOCAL-00001" summary="Api key">
       <created>1664804694627</created>
@@ -298,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665325940400</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="kuva lisätty">
+      <created>1665344517305</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665344517305</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +392,7 @@
     <MESSAGE value="index lisätty logo" />
     <MESSAGE value="Eemilin muutokset lisätty" />
     <MESSAGE value="Eemilin muutokset lisätty ja korjattu xD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eemilin muutokset lisätty ja korjattu xD" />
+    <MESSAGE value="kuva lisätty" />
+    <option name="LAST_COMMIT_MESSAGE" value="kuva lisätty" />
   </component>
 </project>
