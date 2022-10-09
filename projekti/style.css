@@ -1,35 +1,34 @@
-
- /* styling navlist */
+/* styling navlist */
 body {
     background-image: url("https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg");
     background-position: center;
     background-size: contain;
 }
 
- #box1 {
-     background-size: cover;
-     background-color: transparent;
-     margin: 30px;
-     height: auto;
-     text-align: center;
-     font-family: "Georgia", Times, serif;
-     background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
-     background-repeat: no-repeat;
+#box1 {
+    background-size: cover;
+    background-color: transparent;
+    margin: 30px;
+    height: auto;
+    text-align: center;
+    font-family: "Georgia", Times, serif;
+    background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
+    background-repeat: no-repeat;
 
- }
+}
 
- #box2 {
-     background-size: 50px 50px, cover;
-     background-color: #0F1416;
-     margin: 30px;
-     text-align: center;
-     font-family: "Georgia", Times, serif;
+#box2 {
+    background-size: 50px 50px, cover;
+    background-color: #0F1416;
+    margin: 30px;
+    text-align: center;
+    font-family: "Georgia", Times, serif;
 
 
- }
- #palkki{
-     padding: 30px;
- }
+}
+#palkki{
+    padding: 30px;
+}
 
 #navlist {
     background-color: black;
@@ -47,16 +46,16 @@ body {
     height: 200px;
     width: 200px;
 }
- #footer {
-     margin-left:auto;
-     margin-right:auto;
-     margin-top:2em;
-     text-align: center;
- }
+#footer {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+    text-align: center;
+}
 /* styling navlist anchor element */
 #navlist a {
 
-float: left;
+    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -80,86 +79,89 @@ float: left;
 }
 
 /* styling search bar! */
- form{
-     float: right;
-     position: relative;
-     transition: all 1s;
-     width: 50px;
-     height: 50px;
-     background: white;
-     box-sizing: border-box;
-     border-radius: 25px;
-     border: 4px solid black;
-     padding: 5px;
- }
+form{
+    float: right;
+    position: relative;
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid black;
+    padding: 5px;
+}
 
- input{
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;;
-     height: 42px;
-     line-height: 30px;
-     outline: 0;
-     border: 0;
-     display: none;
-     font-size: 1em;
-     border-radius: 20px;
-     padding: 0 20px;
- }
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
 
- .fa{
-     box-sizing: border-box;
-     padding: 10px;
-     width: 42px;
-     height: 42px;
-     position: absolute;
-     top: 0;
-     right: 0;
-     border-radius: 50%;
-     color: #07051a;
-     text-align: center;
-     font-size: 1.2em;
-     transition: all 1s;
- }
- form:hover{
-     width: 200px;
-     cursor: pointer;
- }
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
 
- form:hover input{
-     display: block;
- }
+form:hover input{
+    display: block;
+}
 
- form:hover .fa{
-     background: #07051a;
-     color: white;
- }
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
 
-  #ravintolat{
-     flex-wrap: wrap;
-     justify-content: center;
-      text-align: center;
-      flex: fit-content;
-      flex-basis: 100%;
-      padding: 40px;
+/* laatikoiden asettelua ja kuvien */
+#ravintolat{
+    flex-wrap: wrap;
+    display: inline-flex;
+    text-align: center;
+    flex: fit-content;
+    flex-basis: 100%;
+    padding: 85px;
 
- }
-  article{
-      padding: 30px;
-  }
-  #foodpics{
-      width: 400px;
-      height: 300px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+}
+article{
+    padding: 30px;
+}
+#foodpics{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-  }
+}
+
 header {
     font-size: 20px;
     font-weight: bold;
 
+    /* Mouse hooveraus kuviin */
 }
 .fullwrap{
     position: relative;
@@ -169,12 +171,12 @@ header {
 .fullcap {
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    height: 150%;
     position: absolute;
     top: 0; left: 0;
     text-align: center;
-    padding-top: 5%;
-    background-color: rgb(0, 0, 0, 0.7);
+
+    background-color: rgb(0, 0, 0, 0.9);
     color: white;
 }
 .fullcap {
@@ -185,18 +187,3 @@ header {
     visibility: visible; opacity: 1;
 
 }
-
- #map {
-     width: 400px;
-     height: 400px;
- }
-#places {
-    padding-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    gap: 20px;
-
-}
-
-
