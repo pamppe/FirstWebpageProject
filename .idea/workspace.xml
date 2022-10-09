@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="index lisätty logo" />
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="index lisätty logo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/kartta.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/kartta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/nettisivu projekti.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/nettisivu projekti.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +66,7 @@
       <workItem from="1665179887076" duration="4994000" />
       <workItem from="1665246076986" duration="13096000" />
       <workItem from="1665264723926" duration="2892000" />
-      <workItem from="1665322529006" duration="2317000" />
+      <workItem from="1665322529006" duration="2960000" />
     </task>
     <task id="LOCAL-00001" summary="Api key">
       <created>1664804694627</created>
@@ -272,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665324739719</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="index lisätty logo">
+      <created>1665325004465</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1665325004465</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

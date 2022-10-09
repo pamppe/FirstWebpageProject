@@ -1,11 +1,15 @@
 body {
-    font-family: "Georgia", Times, serif;
-    margin: 0;
-    background-color: #0F1416;
+    background-image: url("https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg");
+    background-position: center;
+    background-size: contain;
 }
 #map {
-    width: 100%;
+    display: block;
+    margin-right:auto;
+    margin-left: 10%;
     height: 700px;
+    width: 1000px;
+    margin-top: 20px;
 }
 #palkki{
     padding: 30px;
@@ -48,4 +52,15 @@ body {
     background-size: cover;
     font-size: 25px;
     background-repeat: no-repeat;
-}
+}#footer {
+     position: absolute;
+     color: #dddddd;
+ }#comment {
+       color: #dddddd;
+       font-size: 20px;
+   }#box1 {
+        background-size: cover;
+        background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
+        margin: 50px;
+
+    }
