@@ -140,13 +140,16 @@ form:hover .fa{
 
 /* laatikoiden asettelua ja kuvien */
 #ravintolat{
-    flex-wrap: wrap;
     display: flex;
-    text-align: center;
-    flex: fit-content;
-    flex-basis: 80%;
-    margin: 37px;
+    flex-wrap: wrap;
+    flex: 50% 50%;
+    margin-left: 40px;
 
+}
+@media (max-width: 800px) {
+    #ravintolat {
+        flex: 100%;
+    }
 }
 article{
     padding: 30px;
@@ -154,9 +157,7 @@ article{
 #foodpics{
     width: 400px;
     height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
 
 }
 

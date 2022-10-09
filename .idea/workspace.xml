@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Eemilin muutokset lisätty">
-      <change beforePath="$PROJECT_DIR$/projekti/aboutpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/aboutpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665346317854</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Eemilin muutokset lisätty">
+      <created>1665346587466</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665346587466</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
