@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="style muokattu" />
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="index lisätty logo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +60,7 @@
       <workItem from="1665179887076" duration="4994000" />
       <workItem from="1665246076986" duration="13096000" />
       <workItem from="1665264723926" duration="2892000" />
-      <workItem from="1665322529006" duration="1907000" />
+      <workItem from="1665322529006" duration="2317000" />
     </task>
     <task id="LOCAL-00001" summary="Api key">
       <created>1664804694627</created>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665323953179</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="index lisätty logo">
+      <created>1665324739719</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1665324739719</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +360,7 @@
     <MESSAGE value="Kommentit lisätty ja koodi formatoitu" />
     <MESSAGE value="korvattu taulukkojen kuvaus" />
     <MESSAGE value="style muokattu" />
-    <option name="LAST_COMMIT_MESSAGE" value="style muokattu" />
+    <MESSAGE value="index lisätty logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="index lisätty logo" />
   </component>
 </project>
