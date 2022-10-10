@@ -1,5 +1,9 @@
 // Luodaan kartta elementtiin, keskitetään kuva Helsinkiin.
 function initMap() {
+
+    const directionsRenderer = new google.maps.DirectionsRenderer();
+    const directionsService = new google.maps.DirectionsService();
+
     map = new google.maps.Map(document.getElementById("map"), {
         center: {
             lat: 60.192,
@@ -8,8 +12,12 @@ function initMap() {
         zoom: 6,
 
     });
+
+    directionsRenderer.setMap(map);
     // Luodaan infoikkuna
     infoWindow = new google.maps.InfoWindow();
+
+
 
     // Lisätään Eventlistener kun käyttäjä clickaa buttonia.
     paikannaElem.addEventListener("click", () => {
@@ -40,8 +48,8 @@ function initMap() {
 
                             for (let i = 0; i < results.length; i++) { // Iteroidaan taulukko läpi for loopilla
                                 let place = results[i];
-                                createMarker(results[i].geometry.location, place.name, place); // Kutsutaan funktiota createmarker ja lähetetään parametreinä
-                                // paikan koordinaatit, paikan nimi, sekä koko taulukko....
+                                createMarker(results[i].geometry.location, place.name, place); // Kutsutaan funktiota createmarker ja lähetetään parametreinä paikan koordinaatit, paikan nimi, sekä koko taulukko....
+
                             }
                         }
                     }
@@ -57,19 +65,28 @@ function initMap() {
                             animation: google.maps.Animation.DROP,
                             title: title,
                         });
+
+
                         google.maps.event.addListener(merkki, 'click', function() { // Lisätään markerille eventlisteneri jos käyttäjä clickkaa markkeria
                             map.setZoom(14);
                             map.setCenter(merkki.getPosition());
                             infoWindow.setPosition(position); // lisätään markkereille infoikkuna
 
+                           console.log(pos);
 
+
+
+                            calculateAndDisplayRoute(directionsService,directionsRenderer,pos,merkki);
+
+
+                          const kuva = place.photos[0].getUrl({
+                                'maxWidth': 500,
+                                'maxHeight': 500
+                            })
 
                             // Luodaan if konditio jos api kyselystä ei palaudukkaan kuvaa, jotta muut merkit toimivat
 
-                            if (place.photos[0].getUrl({
-                                'maxWidth': 500,
-                                'maxHeight': 500
-                            }) == null) {
+                            if ( kuva == null) {
                                 infoWindow.setContent(`
                <div>
                      <article> 
@@ -91,6 +108,7 @@ function initMap() {
                                 infoWindow.setContent(`
                <div>
                      <article> 
+                     
                             <header id="markerHeader"><h2> ${place.name} </h2></header> 
                         
                             <figure class="fullwrap">
@@ -98,15 +116,20 @@ function initMap() {
                                 
                              </figure>
                             <p><strong>Osoite: </strong> ${place.vicinity} <br> <strong>Arvostelu: </strong> ${place.rating}/5</p>
-                            <p> 
+                            
+                            <p> <button type="navigoi" id="navigoi">Navigoi tähän</button>
                                 <a></a>
                             </p>
+                            
                      </article>
                   </div>   
               `)
                                 infoWindow.open(map, merkki); // Avataan infoikkuna markkereiden luokse
+
+
                             }
                         });
+
                     }
                 },
                 () => {
@@ -117,6 +140,7 @@ function initMap() {
             // Browser doesn't support Geolocation
             handleLocationError(false, infoWindow, map.getCenter());
         }
+
     });
 
 }
@@ -130,6 +154,21 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     );
     infoWindow.open(map);
     Results();
+}
+function calculateAndDisplayRoute(directionsService, directionsRenderer, pos, merkki){
+
+    directionsService
+        .route({
+        origin: pos,
+        destination: merkki.getPosition(),
+        travelMode: 'WALKING'
+    })
+        .then((response) => {
+            directionsRenderer.setDirections(response);
+
+            console.log(response);
+        })
+        .catch((e) => window.alert("Direction request failed due to " + status));
 }
 window.onload = initMap;
 const paikannaElem = document.getElementById("nayta"); // Tallennetaan button elementti
