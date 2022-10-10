@@ -1,9 +1,10 @@
 // Luodaan kartta elementtiin, keskitetään kuva Helsinkiin.
 function initMap() {
 
-    const directionsRenderer = new google.maps.DirectionsRenderer();
+    const directionsRenderer = new google.maps.DirectionsRenderer(); // Lisätään directions api renderer
     const directionsService = new google.maps.DirectionsService();
 
+    // Luodaan kartta elementtiin, keskitetään kuva Helsinkiin.
     map = new google.maps.Map(document.getElementById("map"), {
         center: {
             lat: 60.192,
@@ -72,21 +73,21 @@ function initMap() {
                             map.setCenter(merkki.getPosition());
                             infoWindow.setPosition(position); // lisätään markkereille infoikkuna
 
-                           console.log(pos);
+                            console.log(pos);
 
 
+                            // Kutsutaan funktiota ja välitetään paremetreinä service, renderer, paikannetut koordinaatit, ja markkeri
+                            calculateAndDisplayRoute(directionsService, directionsRenderer, pos, merkki);
 
-                            calculateAndDisplayRoute(directionsService,directionsRenderer,pos,merkki);
 
-
-                          const kuva = place.photos[0].getUrl({
+                            const kuva = place.photos[0].getUrl({
                                 'maxWidth': 500,
                                 'maxHeight': 500
                             })
 
                             // Luodaan if konditio jos api kyselystä ei palaudukkaan kuvaa, jotta muut merkit toimivat
 
-                            if ( kuva == null) {
+                            if (kuva == null) {
                                 infoWindow.setContent(`
                <div>
                      <article> 
@@ -155,20 +156,21 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.open(map);
     Results();
 }
-function calculateAndDisplayRoute(directionsService, directionsRenderer, pos, merkki){
+// Funktio jolla haetaan tarvittavat tiedot directions apista käyttäen places apin vaadittuja paremetrejä
+function calculateAndDisplayRoute(directionsService, directionsRenderer, pos, merkki) {
 
-    directionsService
+    directionsService // Kyselyn vaatimat parametrit
         .route({
-        origin: pos,
-        destination: merkki.getPosition(),
-        travelMode: 'WALKING'
-    })
+            origin: pos,
+            destination: merkki.getPosition(),
+            travelMode: 'WALKING'
+        })
         .then((response) => {
-            directionsRenderer.setDirections(response);
+            directionsRenderer.setDirections(response); // Tulostetaan reitti karttaan jos kysely onnistuu
 
             console.log(response);
         })
-        .catch((e) => window.alert("Direction request failed due to " + status));
+        .catch((e) => window.alert("Direction request failed due to " + status)); // Ilmoitetaan jos kysely epäonnistuu
 }
 window.onload = initMap;
 const paikannaElem = document.getElementById("nayta"); // Tallennetaan button elementti

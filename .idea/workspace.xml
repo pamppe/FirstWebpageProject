@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Eemilin muutokset lisätty">
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="get directions api lisätty">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projekti/Kartta.js" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/Kartta.js" afterDir="false" />
     </list>
@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665397683707</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="get directions api lisätty">
+      <created>1665403850930</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403850930</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,6 +423,7 @@
     <MESSAGE value="style muokattu" />
     <MESSAGE value="index lisätty logo" />
     <MESSAGE value="Eemilin muutokset lisätty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eemilin muutokset lisätty" />
+    <MESSAGE value="get directions api lisätty" />
+    <option name="LAST_COMMIT_MESSAGE" value="get directions api lisätty" />
   </component>
 </project>
