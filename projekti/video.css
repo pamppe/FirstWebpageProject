@@ -79,3 +79,10 @@ nav ul li a {
         height: 100%;
     }
 }
+a:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+
