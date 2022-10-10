@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Kartat js file siistitty ja kommentoitu">
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Ravintolat osio kommentoitu ja siistitty">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/FinalProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/FinalProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/nettisivu projekti.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/nettisivu projekti.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665412703718</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Ravintolat osio kommentoitu ja siistitty">
+      <created>1665413638933</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1665413638933</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +439,7 @@
     <MESSAGE value="Eemilin muutokset lisätty" />
     <MESSAGE value="get directions api lisätty" />
     <MESSAGE value="Kartat js file siistitty ja kommentoitu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kartat js file siistitty ja kommentoitu" />
+    <MESSAGE value="Ravintolat osio kommentoitu ja siistitty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ravintolat osio kommentoitu ja siistitty" />
   </component>
 </project>
