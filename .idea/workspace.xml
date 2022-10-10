@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Eemilin muutokset lisätty">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2022_10_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2022_10_32__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_10_2022_20_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_10_2022_20_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2022_22_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2022_22_12__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_10_2022_0_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_10_2022_0_58__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/aboutpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/aboutpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/nettisivu projekti.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/nettisivu projekti.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +70,7 @@
       <workItem from="1665246076986" duration="13096000" />
       <workItem from="1665264723926" duration="2892000" />
       <workItem from="1665322529006" duration="3315000" />
+      <workItem from="1665394995686" duration="2407000" />
     </task>
     <task id="LOCAL-00001" summary="Api key">
       <created>1664804694627</created>
