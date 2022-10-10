@@ -117,7 +117,7 @@ function initMap() {
                              </figure>
                             <p><strong>Osoite: </strong> ${place.vicinity} <br> <strong>Arvostelu: </strong> ${place.rating}/5</p>
                             
-                            <p> <button type="navigoi" id="navigoi">Navigoi tähän</button>
+                            <p> 
                                 <a></a>
                             </p>
                             
