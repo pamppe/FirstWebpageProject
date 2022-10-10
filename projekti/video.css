@@ -61,6 +61,19 @@ nav ul li a {
     border-radius: 50px;
     margin-top: 20px;
 }
+.content1 {
+    text-align: center;
+}
+.content1 a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
 .back-video {
     position: absolute;
     right: 0;
