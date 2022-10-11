@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Eemilin muutokset lisätty">
-      <change afterPath="$PROJECT_DIR$/projekti/impress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projekti/impress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projekti/impress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projekti/Whyus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projekti/whyus.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekti/nettisivu projekti.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/nettisivu projekti.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/Kartta.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/Kartta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/aboutpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/aboutpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/aboutpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/aboutpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekti/kartta.css" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/kartta.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

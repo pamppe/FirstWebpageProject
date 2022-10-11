@@ -1,3 +1,4 @@
+/*Fontti ja taustaväri*/
 body {
     font-family: "Georgia", Times, serif;
     margin: 0;
@@ -12,16 +13,17 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+/*Muotoillaan palkkia*/
 #palkki{
     padding: 30px;
 }
-
+/*Lisätään väri ja asetellaan */
 #navlist {
     background-color: black;
     position: absolute;
     width: 97%;
 }
-/* styling navlist anchor element */
+/* Muotoillaan navigointi listan ankkurielementti */
 #navlist a {
 
 
@@ -37,20 +39,21 @@ html {
 }
 
 
-/* hover effect of navlist anchor element */
+/* Lisätään hover effecti navigointilistan ankkurielementtiin */
 #navlist a:hover {
     background-color: #ddd;
     color: black;
     letter-spacing: 10px;
 
 }
+
 .column {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
-
+/* Asetetaan kortiin leveys, väri yms */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-left: auto;
@@ -59,7 +62,7 @@ html {
     width: 100%;
 
 }
-
+/* Lisätään taustakuva , sijoitellaan tekstiä yms */
 .about-section {
     padding: 40px;
     text-align: center;
@@ -84,6 +87,7 @@ html {
     clear: both;
     display: table;
 }
+/* Sijoitellaan kortit */
 #kim {
     display: block;
     margin-left: auto;
@@ -104,7 +108,7 @@ html {
 .title {
     color: gray;
 }
-
+/* Muokataan napin ulkoasua */
 .button {
     border: none;
     outline: 0;
@@ -116,12 +120,12 @@ html {
     cursor: pointer;
     width: 100%;
 }
-
+/* Lisätään nappiin hover effecti */
 .button:hover {
     background-color: darkgrey;
 }
 
-
+/* Muutetaan maksimi leveyttä*/
 @media screen and (max-width: 60px) {
     .column {
         width: 100%;

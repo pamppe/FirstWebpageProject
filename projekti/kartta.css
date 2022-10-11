@@ -1,8 +1,10 @@
+/* Lisätään kuva taustalle */
 body {
     background-image: url("https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg");
     background-position: center;
     background-size: contain;
 }
+/* Muotoillaan ja asetellaan kartta */
 #map {
     display: block;
     margin-right:auto;
@@ -11,10 +13,11 @@ body {
     width: 1000px;
     margin-top: 50px;
 }
+
 #palkki{
     padding: 30px;
 }
-
+/* Lisätään navigointi listaa taustaväri */
 #navlist {
     background-color: black;
     position: absolute;
@@ -36,12 +39,13 @@ body {
 }
 
 
-/* hover effect of navlist anchor element */
+/* Lisätään hover effecti */
 #navlist a:hover {
     background-color: #ddd;
     color: black;
     letter-spacing: 10px;
 }
+/* Lisätään otsikko palkkiin kuva ja asetellaan se */
 .about-section {
     padding: 10px;
     text-align: center;
@@ -52,7 +56,9 @@ body {
     background-size: cover;
     font-size: 25px;
     background-repeat: no-repeat;
-}#footer {
+}
+/* Muotoillaan alaotsikko */
+#footer {
      position: absolute;
      color: #dddddd;
  }#comment {
