@@ -1,46 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ota yhteyttä</title>
-  <link rel="stylesheet" type="text/css" href="contact.css">
+  <meta charset="UTF-8">
+  <title>Ota yhteyttä</title>
+  <link rel="stylesheet" type="text/css" href="contact.css"> <!-- Referoi contact.css-tiedostoon -->
   <div class="about-section">
-  <h1>Ota yhteyttä</h1>
+    <h1>Ota yhteyttä</h1> <!-- Otsikko -->
   </div>
   <div class="container">
-    <form action="action_page.php">
-
-      <label for="etunimi">Etunimi</label>
+    <form action=""> <!-- Action-attribuutti määrittää minne lomaketiedot lähetetään, kun lomake lähetetään. Tässä tapauksessa ei mihinkään. -->
+      <label for="etunimi">Etunimi</label> <!-- Nimet yms -->
       <input type="text" id="etunimi" name="etunimi" placeholder="Anna nimesi...">
-
       <label for="sukunimi">Sukunimi</label>
       <input type="text" id="sukunimi" name="sukunimi" placeholder="Anna sukunimesi...">
-
       <label for="sahkoposti">Sähköposti</label>
       <input type="text" id="sahkoposti" name="sahkoposti" placeholder="Anna sähköpostisi...">
-
-      <label for="asia">Mitä asiasi koskee?</label>
+      <label for="asia">Mitä asiasi koskee?</label> <!-- Valikko yhteydenoton syylle -->
       <select id="asia" name="asia">
-        <option value="yhteydenotto">Yhteydenotto</option>
+        <option value="yhteydenotto">Yhteydenotto</option> <!-- Vaihtoehdot -->
         <option value="sivuntoimivuus">Sivun käytettävyys</option>
         <option value="bugi">Häikkä sivustolla</option>
         <option value="avoinpalaute">Avoin palaute</option>
         <option value="kehu">Kehu</option>
         <option value="muu">Jotain muuta</option>
       </select>
-
-      <label for="viesti">Viesti</label>
+      <label for="viesti">Viesti</label> <!-- Viestikenttä -->
       <textarea id="viesti" name="viesti" placeholder="Kirjoita viesti..." style="height:200px"></textarea>
-
-      <input type="submit" value="Lähetä" onclick="alert('Kiitos viestistänne! Olemme Teihin yhteydessä pikimmiten.'); window.location.href='contact.html'; return false;">
-
+      <input type="submit" value="Lähetä" onclick="alert('Kiitos viestistänne! Olemme Teihin yhteydessä pikimmiten.'); window.location.href='contact.html'; return false;"> <!-- Antaa alertin nappia painaessa -->
       <form>
-      <input type="button" value="Takaisin" onclick="history.back()">
+        <input type="button" value="Takaisin" onclick="history.back()"> <!-- Nappi joka vie sivulle, jossa käyttäjä viimeksi sivulla oli -->
       </form>
     </form>
   </div>
 </head>
 <body>
-<!-- testi -->
 </body>
 </html>

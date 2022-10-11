@@ -1,21 +1,21 @@
 body {
-    font-family: "Georgia", Times, serif;
+    font-family: "Georgia", Times, serif; /* fontti ja taustaväri */
     margin: 0;
     background-color: #0F1416;
 }
-/* Style inputs with type="text", select elements and textareas */
+/* type="text" inputin muokkausta */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; /* leveys */
+    padding: 12px; /* toppaus */
+    border: 1px solid #ccc; /* harmaa reunus */
+    border-radius: 4px; /* pyöreä reunus */
+    box-sizing: border-box; /* Varmistaa, että toppaukset ja leveys pysyvät paikoillaan */
+    margin-top: 6px; /* Ylämarginaali */
+    margin-bottom: 16px; /* Alamrginaali */
+    resize: vertical /* Sallii käyttäjän muuttaa tekstialueen kokoa pystysuunnassa (ei vaakasuunnassa) */
 }
 
-/* Style the submit button with a specific background color etc */
+/* Napin muokkausta */
 input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -25,7 +25,7 @@ input[type=submit] {
     cursor: pointer;
 
 }
-/* Style the back button with a specific background color etc */
+/* Napin muokkausta */
 input[type=button] {
     background-color: #04AA6D;
     color: white;
@@ -35,20 +35,21 @@ input[type=button] {
     cursor: pointer;
 
 }
-/* When moving the mouse over the submit button, add a darker green color */
+/* Napille hoverausefekti */
 input[type=submit]:hover {
     background-color: #45a049;
 }
-/* When moving the mouse over the back button, add a darker green color */
+/* Tummempi väri hoveratessa */
 input[type=button]:hover {
     background-color: #45a049;
 }
-/* Add a background color and some padding around the form */
+/* Taustakuvalle väri ja padding */
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
+/* Bannerin taustakuva yms */
 .about-section {
     background-image: url("https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg");
     color: white;
