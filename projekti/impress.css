@@ -1,0 +1,16 @@
+.no-support-message { display:none; }
+.impress-not-supported .no-support-message { display:block; }
+
+/* additional styles just to make things look a bit nicer */
+body{
+    width:1024px;
+    font-size: 30px;
+    background: rgb(215, 215, 215);
+    background: -webkit-radial-gradient(#FFFFFF, #68BEFB);
+    background:    -moz-radial-gradient(#FFFFFF, #68BEFB)
+    repeat scroll 0 0 transparent;
+    background:     -ms-radial-gradient(#FFFFFF, #68BEFB);
+    background:      -o-radial-gradient(#FFFFFF, #68BEFB);
+    background:         radial-gradient(#FFFFFF, #68BEFB);
+}
+.step { width:940px; margin:0 auto 24px auto;  }

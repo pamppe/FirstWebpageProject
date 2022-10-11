@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Impress Tutorial</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="impress.css" rel="stylesheet" />
+</head>
+<body>
+<div id="impress">
+  <div class="no-support-message">
+    Your browser doesn't support impress.js.  Try Chrome or Safari.
+  </div>
+
+  <div class="step" data-x="0" data-y="0" data-scale="5">
+    <b>Ravintolasivustomme<br> Ryhmä i: Emil Lehtonen, Petteri Helttula ja Kim Rautiainen</b>
+  </div>
+
+  <div class="step" data-x="2000" data-y="3000" data-scale="5">
+    <b>Kehitimme sivuston, joka auttaa löytämään ravintoloita jota ei itse välttämättä löytäisi. Rafla on tarkoitettu jokaiselle ruoan ystävälle, joka kamppailee hyvän ravintolan löytämisen kanssa.
+    Sivusto on tehty minimalistisesti ja helppo käyttöiseksi.</b>
+  </div>
+
+  <div class="step" data-x="1000" data-y="-600">
+    <b> Sovelluksen ominaisuudet: Jokaiselle ominaisuudelle on tehty omat html, css ja js tarvittaessa. Ravintola sivustolla saa heti vaihtoehtoja ravintoloista flexbox mallisesti. Sivulla on hakupalkki mihin voi "filtteröidä" kirjaimin tiettyjä ravintoloita esim.aasialaisia ravintoloita. About us sivulla on meidän kuvien alla on myös contact us nappi mihin voi laittaa palautetta jokaiselle erikseen.
+    Video sivulla itse video on upotettu sivuston taustaksi mikä pyörii tasutalla. Videoon on linkki youtubeen äänillä ja videon käsikirjoitukseen on linkki mikä avautuu omaan animoituun sivustoon. Kartalle on oma sivu. Kartta käyttää google apeja. Jotka ovat places, driections ja maps apit.</b>
+  </div>
+
+  <div class="step" data-x="4000" data-y="-2000" data-scale="3">
+    <b> Apit koodiesmerkit: <br> Google maps places api:<br> let request = { // Tallennetaan muuttujaan Api kyselyn vaatimat parametrit
+      <hr> location: pos,
+    radius: 5000,
+    type: ['restaurant'],<br>
+    };<hr>
+      service = new google.maps.places.PlacesService(map);<br> // Kutsutaan Googlemaps places Apia<br>
+    service.nearbySearch(request, callback); // Kutsutaan places apin nearbysearch osiota ja lähetetään vaadittavat parametrit<hr>
+
+     function callback(results, status) {<br>
+    if (status == google.maps.places.PlacesServiceStatus.OK) {<hr>
+
+      for (let i = 0; i < results.length; i++) { // Iteroidaan taulukko läpi for loopilla<hr>
+    let place = results[i]; <hr>Google directions api: <br>function calculateAndDisplayRoute(directionsService, directionsRenderer, pos, merkki) {
+
+      <br>directionsService // Kyselyn vaatimat parametrit<br>
+    .route({
+    origin: pos,
+    destination: merkki.getPosition(),
+    travelMode: 'WALKING'<br>
+    })
+    .then((response) => {<br>
+    directionsRenderer.setDirections(response); // Tulostetaan reitti karttaan jos kysely onnistuu<hr>
+
+    console.log(response);
+    })
+    .catch((e) => window.alert("Direction request failed due to " + status)); // Ilmoitetaan jos kysely epäonnistuu</br>
+  </div>
+
+  <div class="step" data-x="0" data-y="-800" data-rotate="90">
+    <b>CSS-animaatioita on hakupalkki mikä aukee ja ilmestyy tekstipalkki johon voi kirjoittaa kun sitä klikkaa. Valikko palkin linkit venyvät, kun hoveraa hiirellä päälle. Ravintola sivussa olevat ravintoloiden kuvien päälle siirtää hiiren, niin ilmestyy kyseisen ravintolan tietoja.
+      Videosivulla video on muutettu taustakuvaksi ja looppaa videoita mutella. Kuvakäsikirjoitus sivu on kokonaan animoitu, niin että puhekuplat tulevat ajastetusti ja lineaarisesti. Contact us sivulla on button, jokaisen kuvan alapuolella mikä vie sinut palautesivulle.</b>
+  </div>
+
+  <div class="step" data-x="-1000" data-y="-1000" data-rotate-x="60" data-rotate-y="60" data-rotate-z="30">
+    <a href="index.html"><b>Linkki sovellukseen</b></a>
+  </div>
+
+  <div class="step" data-x="-2600" data-y="-800" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
+    <b>KIITOS!</b>
+  </div>
+
+</div>
+<script type="text/javascript" src="impress.js"></script>
+<!--
+    call `impress().init()` function to initialize impress.js presentation.
+-->
+<script>impress().init();</script>
+</body>
+</html>

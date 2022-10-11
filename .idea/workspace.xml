@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Ravintolat osio kommentoitu ja siistitty">
+    <list default="true" id="55820505-f0c4-4766-b3a6-82392ec6b283" name="Changes" comment="Eemilin muutokset lisätty">
+      <change afterPath="$PROJECT_DIR$/projekti/impress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projekti/impress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projekti/impress.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projekti/nettisivu projekti.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekti/nettisivu projekti.html" afterDir="false" />
     </list>
@@ -15,8 +18,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -340,14 +343,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665412703718</updated>
     </task>
-    <task id="LOCAL-00040" summary="Ravintolat osio kommentoitu ja siistitty">
-      <created>1665413638933</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1665413638933</updated>
-    </task>
-    <option name="localTasksCounter" value="41" />
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,10 +432,9 @@
     <MESSAGE value="korvattu taulukkojen kuvaus" />
     <MESSAGE value="style muokattu" />
     <MESSAGE value="index lisätty logo" />
-    <MESSAGE value="Eemilin muutokset lisätty" />
     <MESSAGE value="get directions api lisätty" />
     <MESSAGE value="Kartat js file siistitty ja kommentoitu" />
-    <MESSAGE value="Ravintolat osio kommentoitu ja siistitty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ravintolat osio kommentoitu ja siistitty" />
+    <MESSAGE value="Eemilin muutokset lisätty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eemilin muutokset lisätty" />
   </component>
 </project>
