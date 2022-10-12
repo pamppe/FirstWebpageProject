@@ -46,7 +46,9 @@ body {
     animation: movedown 1s linear forwards;
     padding: 30px 30px;
 }
-
+img {
+    max-width: 100%;
+}
 @keyframes movedown {
     0% {
         opacity: 1;

@@ -6,12 +6,14 @@ body {
 }
 /* Muotoillaan ja asetellaan kartta */
 #map {
+    border-radius: 2%;
     display: block;
     margin-right:auto;
     margin-left: auto;
     height: 700px;
     width: 1000px;
     margin-top: 50px;
+    max-width: 100%;
 }
 
 #palkki{
@@ -70,6 +72,8 @@ body {
         margin: 50px;
        }
     #nayta {
+
+        font-size: 15px;
         position: relative;
-        padding: 20px;
+        padding: 15px;
     }
