@@ -1,5 +1,6 @@
 
 body{
+    /*Sivun taustakuvan värit ja koko*/
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('tausta.jpg');
     min-height: 100%;
     background-position: center;
@@ -8,6 +9,7 @@ body{
 
 }
 #logo {
+    /*Rafla logon sijainti*/
     position: center;
     display: block;
     margin-left: auto;
@@ -17,7 +19,7 @@ body{
 
 }
 #box {
-
+/*Tervetuloatekstin sijainti*/
     display: flex;
     align-items: center;
     background-color: transparent;
@@ -25,10 +27,11 @@ body{
     padding: 10px;
 
 }
+/*Navigointilistan pituus*/
 #palkki{
     padding: 30px;
 }
-
+/*navigointilistan värit->asetettu Läpäinäkyväksi*/
 #navlist {
     background-color: transparent;
     position: center;
